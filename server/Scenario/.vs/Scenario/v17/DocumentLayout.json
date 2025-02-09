@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +74,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Program.cs",
               "RelativeDocumentMoniker": "Scenario.API\\Program.cs",
@@ -86,12 +90,11 @@
               "RelativeToolTip": "Scenario.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:32:24.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:32:24.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CommentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CommentService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\CommentService.cs",
@@ -99,31 +102,30 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\CommentService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:42.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:29:42.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Scenario.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Scenario.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T09:29:40.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "Scenario.API\\Controllers\\CommentController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "Scenario.API\\Controllers\\CommentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs*",
+              "RelativeToolTip": "Scenario.API\\Controllers\\CommentController.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T09:29:39.028Z",
               "EditorCaption": ""
@@ -138,8 +140,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:21.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:29:21.81Z"
             },
             {
               "$type": "Document",
@@ -151,12 +152,11 @@
               "RelativeToolTip": "Scenario.Core\\Repositories\\IActorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:02.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:29:02.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
@@ -164,12 +164,11 @@
               "RelativeToolTip": "Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:26:48.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:26:48.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ActorService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ActorService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ActorService.cs",
@@ -177,8 +176,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ActorService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:26:24.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:26:24.397Z"
             },
             {
               "$type": "Document",
@@ -190,18 +188,17 @@
               "RelativeToolTip": "Scenario.DataAccess\\Implementations\\ActorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:26:13.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:26:13.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Extension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Extensions\\Extension.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Extensions\\Extension.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Extensions\\Extension.cs",
               "RelativeToolTip": "Scenario.Application\\Extensions\\Extension.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAwE8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T09:24:58.359Z",
               "EditorCaption": ""
@@ -216,8 +213,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:23:22.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:23:22.3Z"
             },
             {
               "$type": "Document",
@@ -229,8 +225,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAFEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:20:54.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:20:54.786Z"
             },
             {
               "$type": "Document",
@@ -242,8 +237,7 @@
               "RelativeToolTip": "Scenario.API\\ServiceRegistration.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAgwAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:16:02.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:16:02.598Z"
             },
             {
               "$type": "Document",
@@ -255,8 +249,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IActorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:20:11.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T09:20:11.216Z"
             },
             {
               "$type": "Document",
