@@ -5,3 +5,4 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\Scenario.API.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\Scenario.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\Scenario.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\Scenario.API.sourcelink.json

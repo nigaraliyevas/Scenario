@@ -1,4 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Scenario.API;
 using Scenario.API.Middlewares.ExceptionMiddleware;
+using Scenario.DataAccess.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,10 +21,10 @@ app.UseStaticFiles();
 
 var config = builder.Configuration;
 builder.Services.Register(config);
-//builder.Services.AddDbContext<MovieAppDbContext>(options =>
-//{
-//    options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
-//});
+builder.Services.AddDbContext<ScenarioAppDbContext>(options =>
+{
+    options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+});
 
 
 // Configure the HTTP request pipeline.

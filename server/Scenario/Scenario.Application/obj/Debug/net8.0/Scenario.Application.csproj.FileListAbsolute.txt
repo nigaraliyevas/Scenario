@@ -15,3 +15,4 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\refint\Scenario.Application.dll
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\ref\Scenario.Application.dll
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.sourcelink.json

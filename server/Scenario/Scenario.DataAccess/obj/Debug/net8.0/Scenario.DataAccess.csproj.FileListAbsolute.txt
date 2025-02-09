@@ -15,3 +15,4 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.DataAccess.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.DataAccess.genruntimeconfig.cache
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\ref\Scenario.DataAccess.dll
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.DataAccess.sourcelink.json

@@ -1,13 +1,20 @@
-﻿using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
+﻿using FluentValidation.AspNetCore;
+using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using Scenario.Application.Profiles;
+using Scenario.Application.Settings;
+using Scenario.Core.Entities;
+using Scenario.DataAccess.Data;
 using System.Text;
 
 namespace Scenario.API
 {
-    public class ServiceRegistration
+    public static class ServiceRegistration
     {
         public static void Register(this IServiceCollection services, IConfiguration config)
         {
@@ -55,7 +62,7 @@ namespace Scenario.API
                 opt.Password.RequireDigit = true;
                 opt.Password.RequireLowercase = true;
                 opt.Password.RequireUppercase = true;
-            }).AddEntityFrameworkStores<MovieAppDbContext>().AddDefaultTokenProviders();
+            }).AddEntityFrameworkStores<ScenarioAppDbContext>().AddDefaultTokenProviders();
             services.Configure<JwtSettings>(config.GetSection("Jwt"));
 
             services.AddAuthentication(x =>

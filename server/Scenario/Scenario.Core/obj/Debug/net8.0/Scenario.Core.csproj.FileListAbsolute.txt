@@ -9,3 +9,5 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Core\obj\Debug\net8.0
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Core\obj\Debug\net8.0\refint\Scenario.Core.dll
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Core\obj\Debug\net8.0\Scenario.Core.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Core\obj\Debug\net8.0\ref\Scenario.Core.dll
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Core\obj\Debug\net8.0\Scenario.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Core\obj\Debug\net8.0\Scenario.Core.sourcelink.json

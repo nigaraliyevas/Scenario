@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Scenario.Core\Scenario.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 </Project>
