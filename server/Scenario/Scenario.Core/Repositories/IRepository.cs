@@ -1,7 +1,7 @@
 ﻿using Scenario.Core.Entities.Common;
 using System.Linq.Expressions;
 
-namespace MovieApp.Core.Repositories
+namespace Scenario.Core.Repositories
 {
     public interface IRepository<T> where T : BaseEntity
     {

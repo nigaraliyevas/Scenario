@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Scenario.API.props" />
+</Project>

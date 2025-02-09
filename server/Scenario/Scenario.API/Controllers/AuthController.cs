@@ -60,7 +60,8 @@ namespace MovieApp.API.Controllers
         [HttpDelete("id")]
         public async Task<IActionResult> DeleteUser(string id)
         {
-            return Ok(await _authService.RemoveUser(id));
+            //return Ok(await _authService.RemoveUser(id));
+            return Ok(new { id });
         }
 
     }

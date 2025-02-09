@@ -120,7 +120,6 @@ namespace Scenario.Application.Service.Implementations
             var ci = new ClaimsIdentity();
             ci.AddClaim(new Claim("id", user.Id));
             ci.AddClaim(new Claim(ClaimTypes.Name, user.UserName));
-            ci.AddClaim(new Claim(ClaimTypes.GivenName, user.FullName));
             ci.AddClaim(new Claim(ClaimTypes.Email, user.Email));
             //ci.AddClaim(new Claim("userImage", user.UserImg ?? string.Empty));
 

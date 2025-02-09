@@ -1,19 +1,20 @@
-﻿using Scenario.DataAccess.Data;
+﻿using Scenario.Core.Repositories;
+using Scenario.DataAccess.Data;
 
 namespace Scenario.DataAccess.Implementations.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly ScenarioAppDbContext _context;
-        //public IMovieRepository MovieRepository { get; private set; }
 
+        public IPlotRepository PlotRepository { get; private set; }
+        public ICommentRepository CommentRepository { get; private set; }
 
-        public UnitOfWork(ScenarioAppDbContext context /*,ICommentRepository commentRepository, ActorRepository actorRepository*/ )
+        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository)
         {
             _context = context;
-            //CommentRepository = commentRepository;
-            //ActorRepository = actorRepository;
-
+            PlotRepository = plotRepository;
+            CommentRepository = commentRepository;
         }
 
         public void Commit()

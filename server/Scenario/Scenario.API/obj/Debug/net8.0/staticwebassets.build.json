@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "rz9JOT6R3k5IUZZotv5fSlNq5uegr98dL7sJUM1iBRg=",
+  "Source": "Scenario.API",
+  "BasePath": "_content/Scenario.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Scenario.API\\wwwroot",
+      "Source": "Scenario.API",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\",
+      "BasePath": "_content/Scenario.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

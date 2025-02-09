@@ -1,8 +1,12 @@
-﻿namespace Scenario.DataAccess.Implementations.UnitOfWork
+﻿
+using Scenario.Core.Repositories;
+
+namespace Scenario.DataAccess.Implementations.UnitOfWork
 {
     public interface IUnitOfWork
     {
-        //public IMovieRepository MovieRepository { get; }
+        public IPlotRepository PlotRepository { get; }
+        public ICommentRepository CommentRepository { get; }
 
 
         public void Commit();
