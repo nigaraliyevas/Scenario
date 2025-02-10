@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.core\\entities\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.core\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\dtos\\settingsdtos\\settingsupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\settingsdtos\\settingsupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\abouttestimonialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\abouttestimonialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\dtos\\settingsdtos\\settingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\settingsdtos\\settingsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iabouttestimonialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\iabouttestimonialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\source\\repos\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\ISettingsService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\ISettingsService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\ISettingsService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\ISettingsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:22:43.286Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SettingsUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\SettingsDtos\\SettingsUpdateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\SettingsDtos\\SettingsUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\SettingsDtos\\SettingsUpdateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\SettingsDtos\\SettingsUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:40:29.621Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\SettingsDtos\\SettingsDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\SettingsDtos\\SettingsDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\SettingsDtos\\SettingsDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\SettingsDtos\\SettingsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:40:04.541Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\SettingsService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\SettingsService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\SettingsService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAwwDMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:52:08.531Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActorService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ActorService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ActorService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ActorService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ActorService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAcwEkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:42:51.292Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Settings.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Settings.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Settings.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Settings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:56:55.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Scenario.Core\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:35:41.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutTestimonialService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AboutTestimonialService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\AboutTestimonialService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AboutTestimonialService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AboutTestimonialService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:49:45.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\Repository.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T08:35:07.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAboutTestimonialService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IAboutTestimonialService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IAboutTestimonialService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IAboutTestimonialService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IAboutTestimonialService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T07:05:15.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
