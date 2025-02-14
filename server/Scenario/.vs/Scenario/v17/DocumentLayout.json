@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -63,8 +63,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T07:22:43.286Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T08:40:29.621Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -91,8 +89,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T08:40:04.541Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "ViewState": "AQIAAB4AAAAAAAAAAAAwwDMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T08:52:08.531Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -119,8 +115,15 @@
               "ViewState": "AQIAADYAAAAAAAAAAAAcwEkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T08:42:51.292Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -128,9 +131,9 @@
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Settings.cs",
               "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Settings.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Settings.cs",
-              "RelativeToolTip": "Scenario.Core\\Entities\\Settings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Settings.cs*",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Settings.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T08:56:55.09Z",
               "EditorCaption": ""
@@ -145,8 +148,7 @@
               "RelativeToolTip": "Scenario.Core\\Repositories\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:35:41.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T08:35:41.599Z"
             },
             {
               "$type": "Document",
@@ -158,8 +160,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AboutTestimonialService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:49:45.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T08:49:45.589Z"
             },
             {
               "$type": "Document",
@@ -171,8 +172,7 @@
               "RelativeToolTip": "Scenario.DataAccess\\Implementations\\Repository.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T08:35:07.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T08:35:07.221Z"
             },
             {
               "$type": "Document",
@@ -184,16 +184,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IAboutTestimonialService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:05:15.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-02-10T07:05:15.495Z"
             }
           ]
         }
