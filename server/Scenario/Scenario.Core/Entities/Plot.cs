@@ -8,7 +8,11 @@ namespace Scenario.Core.Entities
         public string Image { get; set; }
         public string Description { get; set; }
         public string CategoryName { get; set; }
-        public double Rating { get; set; }
+
+
+        public List<PlotRating> Ratings { get; set; }//one to many with plot
+        public double AverageRating;
+
         public int ReadCount { get; set; }
         public bool Status { get; set; }
 

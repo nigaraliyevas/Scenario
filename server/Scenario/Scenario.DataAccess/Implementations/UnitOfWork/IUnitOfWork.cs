@@ -7,6 +7,9 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
     {
         public IPlotRepository PlotRepository { get; }
         public ICommentRepository CommentRepository { get; }
+        public ICategoryRepository CategoryRepository { get; }
+        public IScriptwriterRepository ScriptwriterRepository { get; }
+        public IPlotRatingRepository PlotRatingRepository { get; }
 
 
         public void Commit();

@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\scriptwriterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\scriptwriterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\entities\\plotrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\plotrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\plotratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\plotratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iplotratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\iplotratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\plotratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\plotratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScriptwriterService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:45:34.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPlotRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IPlotRatingService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IPlotRatingService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IPlotRatingService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IPlotRatingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:26:37.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "Scenario.Application\\Profiles\\MapperProfile.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:16:57.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlotRatingController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\PlotRatingController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\PlotRatingController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\PlotRatingController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\PlotRatingController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:11:01.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlotRating.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\PlotRating.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\PlotRating.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\PlotRating.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\PlotRating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:01:02.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlotRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\PlotRatingService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\PlotRatingService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\PlotRatingService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\PlotRatingService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswEMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:36:48.909Z",
+              "EditorCaption": ""
             }
           ]
         }

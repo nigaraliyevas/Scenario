@@ -7,7 +7,7 @@ namespace Scenario.DataAccess.Data
 {
     public class ScenarioAppDbContext : IdentityDbContext<AppUser>
     {
-        public ScenarioAppDbContext(DbContextOptions options) : base(options)
+        public ScenarioAppDbContext(DbContextOptions<ScenarioAppDbContext> options) : base(options)
         {
         }
 
@@ -17,6 +17,7 @@ namespace Scenario.DataAccess.Data
         public DbSet<Plot> Plots { get; set; }
         public DbSet<PlotCategory> PlotCategories { get; set; }
         public DbSet<Scriptwriter> Scriptwriters { get; set; }
+        public DbSet<PlotRating> PlotRatings { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
