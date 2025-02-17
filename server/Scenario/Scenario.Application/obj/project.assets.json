@@ -2974,11 +2974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
       "projectName": "Scenario.Application",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
+      "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Source\\Repos\\Scenario\\server\\Scenario\\Scenario.Application\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2996,8 +2996,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj"
+            "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj"
             }
           }
         }
@@ -3045,13 +3045,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

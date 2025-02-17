@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj": {}
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj": {
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj",
         "projectName": "Scenario.API",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj",
+        "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.API\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj"
+              "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj": {
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
         "projectName": "Scenario.Application",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
+        "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Application\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -129,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj"
+              "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj"
               }
             }
           }
@@ -179,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
         "projectName": "Scenario.Core",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
+        "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,14 +246,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj",
         "projectName": "Scenario.DataAccess",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -271,8 +271,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj"
+              "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj"
               }
             }
           }

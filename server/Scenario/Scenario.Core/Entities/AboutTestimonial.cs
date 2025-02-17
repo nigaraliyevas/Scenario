@@ -12,6 +12,6 @@ namespace Scenario.Core.Entities
     {
         public string Header { get; set; }
         public string Title { get; set; }
-        public byte[] Image { get; set; }
+        public string Image { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {}
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {
+    "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
         "projectName": "Scenario.Core",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
+        "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Scenario.Core.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Scenario\\server\\Scenario\\Scenario.Core\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

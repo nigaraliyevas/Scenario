@@ -10,9 +10,9 @@ namespace Scenario.Core.Entities
     public class UserScenarioFavorite:BaseEntity
     {
         public Guid UserId { get; set; }       
-        public Guid ScenarioId { get; set; }
+        public Guid PlotId { get; set; }
         public bool IsFavorite { get; set; }    
         public AppUser User { get; set; }
-       // public Scenario Scenario { get; set; }
+        public Plot Plot { get; set; }
     }
 }
