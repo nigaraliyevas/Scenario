@@ -21,10 +21,10 @@ namespace Scenario.Application.Service.Implementations
             _userManager = userManager;
         }
 
-        //public Task<int> AddReplyToComment(int parentCommentId, CommentCreateDto commentCreateDto) //todo
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public Task<int> AddReplyToComment(int parentCommentId, CommentCreateDto commentCreateDto) 
+        {
+            throw new NotImplementedException();
+        }
 
         public async Task<CommentDto> Create(CommentCreateDto commentCreateDto)
         {

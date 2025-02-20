@@ -13,9 +13,9 @@ namespace Scenario.Core.Entities
 
         public AppUser AppUser { get; set; }
         public Comment ParentComment { get; set; }
-        public ICollection<Comment> Replies { get; set; }
+        public List<Comment> Replies { get; set; }
 
-        public ICollection<LikeDislike> LikeDislikes { get; set; }
+        public List<LikeDislike> LikeDislikes { get; set; }
 
         /*public string CommentText { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;

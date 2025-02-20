@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Scenario.Application.Dtos.CommentDtos;
 using Scenario.Application.Service.Interfaces;
 
 namespace MovieApp.API.Controllers

@@ -9,7 +9,7 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
         public ICommentRepository CommentRepository { get; }
         public ISettingsRepository SettingsRepository { get; }
         public IUserScenarioFavoriteRepository UserScenarioFavoriteRepository { get; }
-
+        public ILikeDislikeRepository LikeDislikeRepository { get; }
         public void Commit();
     }
 }

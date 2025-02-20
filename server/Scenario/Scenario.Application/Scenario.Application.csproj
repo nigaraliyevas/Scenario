@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Scenario.DataAccess\Scenario.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\UserScenarioFavoriteDtos\" />
+  </ItemGroup>
+
 </Project>

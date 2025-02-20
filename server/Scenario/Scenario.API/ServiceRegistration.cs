@@ -7,9 +7,13 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Scenario.Application.Profiles;
+using Scenario.Application.Service.Implementations;
+using Scenario.Application.Service.Interfaces;
 using Scenario.Application.Settings;
 using Scenario.Core.Entities;
+using Scenario.Core.Repositories;
 using Scenario.DataAccess.Data;
+using Scenario.DataAccess.Implementations;
 using System.Text;
 
 namespace Scenario.API
@@ -43,8 +47,20 @@ namespace Scenario.API
             services.AddFluentValidationRulesToSwagger();
 
 
-            //services.AddScoped<IMovieService, MovieService>();
-            //services.AddScoped<IMovieRepository, MovieRepository>();
+            
+            services.AddScoped<IAboutTestimonialService, AboutTestimonialService>();
+            services.AddScoped<ILikeDislikeService, LikeDislikeService>();
+            services.AddScoped<ISettingsService, SettingsService>();
+            services.AddScoped<IUserScenarioFavoriteService, UserScenarioFavoriteService>();
+            services.AddScoped<ICommentService, CommentService>();
+            //services.AddScoped<IAuthenticationService, AuthenticationService>();
+
+            services.AddScoped<IAboutTestimonialRepository, AboutTestimonialRepository>();
+            services.AddScoped<ILikeDislikeRepository, LikeDislikeRepository>();
+            services.AddScoped<ISettingsRepository, SettingsRepository>();
+            services.AddScoped<IUserScenarioFavoriteRepository, UserScenarioFavoriteRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+
 
             //services.AddScoped<IUnitOfWork, UnitOfWork>();
 
