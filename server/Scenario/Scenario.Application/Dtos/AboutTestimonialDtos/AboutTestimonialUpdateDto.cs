@@ -11,6 +11,6 @@ namespace Scenario.Application.Dtos.AboutTestimonialDtos
     {
         public string Header { get; set; }  
         public string Title { get; set; }   
-        public IFormFile? Image { get; set; }
+        public string? Image { get; set; }
     }
 }

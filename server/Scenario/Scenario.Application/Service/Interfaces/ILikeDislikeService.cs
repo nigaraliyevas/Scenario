@@ -1,11 +1,4 @@
-﻿using Scenario.Application.Dtos.ActorDtos;
-using Scenario.Application.Dtos.LikeDislikeDtos;
-using Scenario.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Scenario.Application.Dtos.LikeDislikeDtos;
 
 namespace Scenario.Application.Service.Interfaces
 {

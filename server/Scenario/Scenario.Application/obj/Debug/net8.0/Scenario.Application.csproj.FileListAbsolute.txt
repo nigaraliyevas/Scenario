@@ -16,3 +16,12 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\ref\Scenario.Application.dll
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.sourcelink.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.csproj.AssemblyReference.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.AssemblyInfoInputs.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.AssemblyInfo.cs
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.sourcelink.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\refint\Scenario.Application.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.pdb

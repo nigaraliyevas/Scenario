@@ -33,7 +33,7 @@ namespace Scenario.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update([FromForm] AboutTestimonialUpdateDto aboutTestimonialUpdateDto, int id)
         {
-           return Ok(await _aboutTestimonialService.Update(aboutTestimonialUpdateDto, id));()
+           return Ok(await _aboutTestimonialService.Update(aboutTestimonialUpdateDto, id));
         }
     }
 }

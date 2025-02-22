@@ -17,27 +17,29 @@ namespace Scenario.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> GetAllSettings()
         {
-            return Ok(await _settingsService.GetSettingsAsync());
+            return Ok(await _settingsService.GetAllSettingsAsync());
         }
-                
+
+        [HttpGet("{key}")]
+        public async Task<IActionResult> GetSettingByKey(string key)
+        {
+            return Ok(await _settingsService.GetSettingByKeyAsync(key));
+        }
+
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody] SettingsUpdateDto settingsUpdateDto)
-        {            
-            return Ok(await _settingsService.Update(settingsUpdateDto));
-        }
-      
-        [HttpDelete]
-        public async Task<IActionResult> Delete()
+        public async Task<IActionResult> UpdateSettings([FromBody] Dictionary<string, string> settings)
         {
-            return Ok(await _settingsService.Delete());
+            await _settingsService.UpdateSettingsAsync(settings);
+            return Ok();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> CreateSetting([FromBody] SettingsCreateDto settingsCreateDto)
         {
-            return Ok(await _settingsService.Create());
+            await _settingsService.CreateSettingAsync(settingsCreateDto);
+            return Ok();
         }
     }
 }

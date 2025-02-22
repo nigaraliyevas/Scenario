@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Scenario.Application.Service.Interfaces;
 using Scenario.Core.Entities;
 using Scenario.DataAccess.Implementations.UnitOfWork;
-using System.Security.Claims;
 namespace Scenario.Application.Service.Implementations
 {
     public class UserScenarioFavoriteService : IUserScenarioFavoriteService

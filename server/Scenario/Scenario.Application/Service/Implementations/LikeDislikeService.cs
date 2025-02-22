@@ -1,17 +1,8 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Identity;
-using Scenario.Application.Dtos.CommentDtos;
 using Scenario.Application.Dtos.LikeDislikeDtos;
 using Scenario.Application.Exceptions;
 using Scenario.Application.Service.Interfaces;
-using Scenario.Core.Entities;
 using Scenario.DataAccess.Implementations.UnitOfWork;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Scenario.Application.Service.Implementations
 {
