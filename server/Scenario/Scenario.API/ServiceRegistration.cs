@@ -1,15 +1,23 @@
-﻿using FluentValidation.AspNetCore;
+﻿using FluentValidation;
+using FluentValidation.AspNetCore;
 using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using Scenario.Application.Dtos.PlotDtos;
 using Scenario.Application.Profiles;
+using Scenario.Application.Service.Implementations;
+using Scenario.Application.Service.Interfaces;
 using Scenario.Application.Settings;
 using Scenario.Core.Entities;
+using Scenario.Core.Repositories;
 using Scenario.DataAccess.Data;
+using Scenario.DataAccess.Implementations;
+using Scenario.DataAccess.Implementations.UnitOfWork;
 using System.Text;
 
 namespace Scenario.API
@@ -33,27 +41,61 @@ namespace Scenario.API
                     return new BadRequestObjectResult(new { message = (string)null, errors });
                 };
             });
+            services.AddDbContext<ScenarioAppDbContext>(options => options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
             services.AddControllersWithViews();
 
             services.AddHttpContextAccessor();
             services.AddFluentValidationAutoValidation();
             services.AddFluentValidationClientsideAdapters();
-            //services.AddValidatorsFromAssemblyContaining<MovieCreateDto>();
+            services.AddValidatorsFromAssemblyContaining<PlotCreateDto>();
             services.AddFluentValidationRulesToSwagger();
 
+            //Dependency injections
 
-            //services.AddScoped<IMovieService, MovieService>();
-            //services.AddScoped<IMovieRepository, MovieRepository>();
+            services.AddScoped<IPlotRepository, PlotRepository>();
+            services.AddScoped<IPlotService, PlotService>();
 
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+            services.AddScoped<ICommentService, CommentService>();
+
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ICategoryService, CategoryService>();
+
+            services.AddScoped<IScriptwriterRepository, ScriptwriterRepository>();
+            services.AddScoped<IScriptwriterService, ScriptwriterService>();
+
+            services.AddScoped<IPlotRatingRepository, PlotRatingRepository>();
+            services.AddScoped<IPlotRatingService, PlotRatingService>();
+
+            services.AddScoped<IChapterRepository, ChapterRepository>();
+
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IChapterService, ChapterService>();
+
+            services.AddScoped<IContactUsRepository, ContactUsRepository>();
+            services.AddScoped<IContactUsService, ContactUsService>();
+
+
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            //email
+
+            services.Configure<EmailConfigurationSettings>(config.GetSection("EmailConfiguration"));
+
+            services.AddSingleton<IEmailSenderService, EmailSenderService>();
+
+            services.Configure<DataProtectionTokenProviderOptions>(options => options.TokenLifespan = TimeSpan.FromMinutes(5));
+            //
+
+            //end
+
 
             services.AddAutoMapper(opt =>
             {
                 opt.AddProfile(new MapperProfile());
             });
-
-            services.AddHttpContextAccessor();
 
             services.AddIdentity<AppUser, IdentityRole>(opt =>
             {
@@ -82,6 +124,29 @@ namespace Scenario.API
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:SecretKey"])),
                 };
             });
+
+
+            services.AddAuthentication()
+                 .AddCookie(options =>
+                 {
+                     options.LoginPath = "/login";  // Redirect to login page
+                     options.LogoutPath = "/logout"; // Redirect after logout
+                     options.AccessDeniedPath = "/access-denied"; // Redirect if unauthorized
+                 })
+                .AddGoogle(options =>
+                {
+                    options.ClientId = config["Authentication:Google:ClientId"];
+                    options.ClientSecret = config["Authentication:Google:ClientSecret"];
+                });
+
+            //.AddApple(options =>
+            //{
+            //    options.ClientId = config["Authentication:Apple:ClientId"];  // Service ID
+            //    options.TeamId = config["Authentication:Apple:TeamId"]; // Apple Developer Team ID
+            //    options.KeyId = config["Authentication:Apple:KeyId"]; // Key ID from Apple
+            //    options.UsePrivateKey((keyId) =>builder.Environment.ContentRootFileProvider.GetFileInfo("AuthKey.p8"));
+            //});
+
 
             //Jwt Bearer send in UI
             services.AddSwaggerGen(opt =>

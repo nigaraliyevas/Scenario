@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\img\\userImages\\480e28cd-2b91-459f-b15c-a7464bd45f4f.bin",
+      "PackagePath": "staticwebassets\\img\\userImages\\480e28cd-2b91-459f-b15c-a7464bd45f4f.bin"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\img\\userImages\\85f4cfce-d0b9-4c4b-9aa9-6ba27259b3a6.bin",
+      "PackagePath": "staticwebassets\\img\\userImages\\85f4cfce-d0b9-4c4b-9aa9-6ba27259b3a6.bin"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Scenario.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Scenario.API.props",
+      "PackagePath": "build\\Scenario.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Scenario.API.props",
+      "PackagePath": "buildMultiTargeting\\Scenario.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Scenario.API.props",
+      "PackagePath": "buildTransitive\\Scenario.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

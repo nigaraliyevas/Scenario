@@ -4,17 +4,16 @@ namespace Scenario.Core.Entities
 {
     public class Comment : BaseEntity
     {
-        public string CommentText { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public string Content { get; set; }
+        public string UserId { get; set; }
+        public AppUser User { get; set; }
 
-        public string AppUserId { get; set; }
-        public AppUser AppUser { get; set; }
-
+        public int ChapterId { get; set; }
+        public Chapter Chapter { get; set; }
 
         public int? ParentCommentId { get; set; }
-
         public Comment ParentComment { get; set; }
-        public List<Comment> Replies { get; set; }  // Collection of replies
+        public List<Comment> Replies { get; set; }
 
 
     }

@@ -3,68 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\appsettingscopy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettingscopy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\contactusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\contactusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\icontactusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\icontactusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\contactusdtos\\contactusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\contactusdtos\\contactusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\contactusdtos\\contactusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\contactusdtos\\contactusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\actorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\repositories\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\repositories\\iactorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\contactusdtos\\contactuscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\contactusdtos\\contactuscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\chapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\chapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\entities\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\usergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\usergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\settings\\emailconfigurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\settings\\emailconfigurationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\scenario.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\scenario.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\chapterdtos\\chapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\chapterdtos\\chapterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\externallogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\externallogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\plotappuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\plotappuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\entities\\plotappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\plotappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,213 +114,323 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Program.cs",
-              "RelativeDocumentMoniker": "Scenario.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Program.cs",
-              "RelativeToolTip": "Scenario.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IContactUsService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IContactUsService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IContactUsService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IContactUsService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IContactUsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:32:24.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:51:01.713Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CommentService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\CommentService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CommentService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\CommentService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:42.435Z",
+              "DocumentIndex": 1,
+              "Title": "appsettingscopy.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettingscopy.json",
+              "RelativeDocumentMoniker": "Scenario.API\\appsettingscopy.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettingscopy.json",
+              "RelativeToolTip": "Scenario.API\\appsettingscopy.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-31T19:46:08.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Scenario.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCAAAAAvAAAAAAAAAA==",
+              "Title": "ContactUsDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:40.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:16:50.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\CommentController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "Scenario.API\\Controllers\\CommentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ContactUsController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\ContactUsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:39.028Z",
+              "WhenOpened": "2025-03-31T18:49:13.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ICommentService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Title": "ContactUsCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:21.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IActorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Repositories\\IActorRepository.cs",
-              "RelativeDocumentMoniker": "Scenario.Core\\Repositories\\IActorRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Repositories\\IActorRepository.cs",
-              "RelativeToolTip": "Scenario.Core\\Repositories\\IActorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:29:02.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:26:48.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActorService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ActorService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ActorService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ActorService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ActorService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:26:24.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:48:39.053Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ActorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\ActorRepository.cs",
-              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\ActorRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\ActorRepository.cs",
-              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\ActorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:26:13.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Extension.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Extensions\\Extension.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Extensions\\Extension.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Extensions\\Extension.cs",
-              "RelativeToolTip": "Scenario.Application\\Extensions\\Extension.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAwE8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:24:58.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:23:22.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFEAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAUwEgBAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:20:54.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:38:20.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChapterService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:44:57.577Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "Scenario.Application\\Profiles\\MapperProfile.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:28:25.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Scenario.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
+              "RelativeToolTip": "Scenario.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T13:12:27.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactUsUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:18:50.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactUsService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:22:41.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Scenario.API\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\ServiceRegistration.cs",
               "RelativeToolTip": "Scenario.API\\ServiceRegistration.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAgwAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:16:02.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T13:15:17.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IActorService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IActorService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IActorService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IActorService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IActorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ContactUs.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\ContactUs.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\ContactUs.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\ContactUs.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\ContactUs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:20:11.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:47:05.978Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Scenario.API.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj",
-              "RelativeDocumentMoniker": "Scenario.API\\Scenario.API.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Scenario.API.csproj",
-              "RelativeToolTip": "Scenario.API\\Scenario.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-09T09:17:35.323Z"
+              "Title": "UserGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserGetDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\UserGetDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserGetDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UserGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:51:07.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailConfigurationSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Settings\\EmailConfigurationSettings.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Settings\\EmailConfigurationSettings.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Settings\\EmailConfigurationSettings.cs",
+              "RelativeToolTip": "Scenario.Application\\Settings\\EmailConfigurationSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:38:22.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:26:15.432Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\Repository.cs",
-              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\Repository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\Repository.cs",
-              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T09:15:49.338Z"
+              "WhenOpened": "2025-03-13T11:06:18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ForgetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\ForgetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\ForgetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\ForgetPasswordDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\ForgetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T11:25:09.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:33:00.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChapterDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ChapterDtos\\ChapterDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ChapterDtos\\ChapterDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ChapterDtos\\ChapterDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\ChapterDtos\\ChapterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T09:43:38.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExternalLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\ExternalLoginDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\ExternalLoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\ExternalLoginDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\ExternalLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T12:47:29.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlotAppUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\PlotAppUserDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\PlotAppUserDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\PlotAppUserDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\PlotAppUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:27:38.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlotAppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\PlotAppUser.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\PlotAppUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\PlotAppUser.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\PlotAppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:49:28.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserRegisterDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:41:04.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Enums\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Enums\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Enums\\UserRoles.cs",
+              "RelativeToolTip": "Scenario.Application\\Enums\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T16:32:44.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:55:38.069Z"
             }
           ]
         }

@@ -1,19 +1,33 @@
-﻿using Scenario.DataAccess.Data;
+﻿using Scenario.Core.Repositories;
+using Scenario.DataAccess.Data;
 
 namespace Scenario.DataAccess.Implementations.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly ScenarioAppDbContext _context;
-        //public IMovieRepository MovieRepository { get; private set; }
+        public IPlotRepository PlotRepository { get; private set; }
+        public ICommentRepository CommentRepository { get; private set; }
+        public ICategoryRepository CategoryRepository { get; private set; }
+        public IScriptwriterRepository ScriptwriterRepository { get; private set; }
+        public IPlotRatingRepository PlotRatingRepository { get; private set; }
+        public IChapterRepository ChapterRepository { get; private set; }
+        public IPlotAppUserRepository PlotAppUserRepository { get; private set; }
+        public IPlotCategoryRepository PlotCategoryRepository { get; private set; }
+        public IContactUsRepository ContactUsRepository { get; private set; }
 
-
-        public UnitOfWork(ScenarioAppDbContext context /*,ICommentRepository commentRepository, ActorRepository actorRepository*/ )
+        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository, IChapterRepository chapterRepository, IPlotAppUserRepository plotAppUserRepository = null, IPlotCategoryRepository plotCategoryRepository = null, IContactUsRepository contactUsRepository = null)
         {
             _context = context;
-            //CommentRepository = commentRepository;
-            //ActorRepository = actorRepository;
-
+            PlotRepository = plotRepository;
+            CommentRepository = commentRepository;
+            CategoryRepository = categoryRepository;
+            ScriptwriterRepository = scriptwriterRepository;
+            PlotRatingRepository = plotRatingRepository;
+            ChapterRepository = chapterRepository;
+            PlotAppUserRepository = plotAppUserRepository;
+            PlotCategoryRepository = plotCategoryRepository;
+            ContactUsRepository = contactUsRepository;
         }
 
         public void Commit()

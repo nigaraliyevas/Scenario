@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MovieApp.Core.Repositories;
 using Scenario.Core.Entities.Common;
+using Scenario.Core.Repositories;
 using Scenario.DataAccess.Data;
 using System.Linq.Expressions;
 
-namespace MovieApp.DataAccess.Implementations
+namespace Scenario.DataAccess.Implementations
 {
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {

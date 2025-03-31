@@ -1,6 +1,5 @@
 ﻿
 using Microsoft.AspNetCore.Http;
-using static System.Net.Mime.MediaTypeNames;
 
 
 namespace Scenario.Application.Extensions.Extension;
@@ -77,12 +76,13 @@ public static class Extension
         try
         {
             using (MemoryStream stream = new MemoryStream(byteArray))
-            using (var image = Image.FromStream(stream)) // Ensure this uses System.Drawing.Image
-            {
-                //var codec = ImageCodecInfo.GetImageEncoders().FirstOrDefault(c => c.FormatID == image.RawFormat.Guid);
-                //return codec?.MimeType ?? "application/octet-stream"; // Fallback if codec is not found
+                //using (var image = Image.FromStream(stream)) // Ensure this uses System.Drawing.Image
+                //{
+                //    //var codec = ImageCodecInfo.GetImageEncoders().FirstOrDefault(c => c.FormatID == image.RawFormat.Guid);
+                //    //return codec?.MimeType ?? "application/octet-stream"; // Fallback if codec is not found
+                //    return "";
+                //}
                 return "";
-            }
         }
         catch (Exception ex)
         {
