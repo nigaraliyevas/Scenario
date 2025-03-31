@@ -22,6 +22,17 @@
           "Scenario.API.dll": {}
         }
       },
+      "AspNet.Security.OAuth.Apple/8.0.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/AspNet.Security.OAuth.Apple.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.56464"
+          }
+        }
+      },
       "AutoMapper/13.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Options": "8.0.0"
@@ -663,6 +674,22 @@
           "lib/netstandard2.0/MicroElements.Swashbuckle.FluentValidation.dll": {
             "assemblyVersion": "6.1.0.0",
             "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53112"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53112"
           }
         }
       },
@@ -2053,7 +2080,10 @@
       },
       "Scenario.Application/1.0.0": {
         "dependencies": {
+          "AspNet.Security.OAuth.Apple": "8.0.0",
           "AutoMapper": "13.0.1",
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.0",
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Scenario.DataAccess": "1.0.0"
         },
@@ -2096,6 +2126,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNet.Security.OAuth.Apple/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tjcq0N0yJ8q9yRxBpFrNDEsRE969Et4fSPxgDPOB0CXMiYVcJHcdiuZXv6FlmHvJHPgdjLEk1XJN1Wye9VX+aw==",
+      "path": "aspnet.security.oauth.apple/8.0.0",
+      "hashPath": "aspnet.security.oauth.apple.8.0.0.nupkg.sha512"
     },
     "AutoMapper/13.0.1": {
       "type": "package",
@@ -2502,6 +2539,20 @@
       "sha512": "sha512-VzqApLPY8xIqXDvWqRuvoDYEoCHII42c4LgvLO3BikKoIVcECD+ZSG727I7yPZ/J07VEoa8aJddoqUtSm4E4gw==",
       "path": "microelements.swashbuckle.fluentvalidation/6.1.0",
       "hashPath": "microelements.swashbuckle.fluentvalidation.6.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fniH775aegFKKbTGNtbjbczcs/DEEaYo8pSJNHwUoVQKaYgJ7C4YDHo30jeUk1XZrBaksSTEK8NFUmxPWQOBHg==",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPE/IiHhBqnJ7WrD72T20+DcHGCaR9F4RmIFap83W1Ts/ze5gBVe4Ii02qJdJzkUniQy5S/v42zpRIgJTPzPqQ==",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.google.8.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {
       "type": "package",

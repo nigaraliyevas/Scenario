@@ -4,8 +4,8 @@
     {
         public string Id { get; set; }
         public string UserName { get; set; }
-        public string FullName { get; set; }
-        public string? UserImg { get; set; }
-        public int SubscriptionPlanId { get; set; }
+        public string Email { get; set; }
+        public string? Image { get; set; }
     }
+
 }

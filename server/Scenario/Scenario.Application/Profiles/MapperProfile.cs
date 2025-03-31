@@ -1,6 +1,11 @@
 ﻿using AutoMapper;
 using Scenario.Application.Dtos.CategoryDtos;
+using Scenario.Application.Dtos.ChapterDtos;
+using Scenario.Application.Dtos.ContactUsDtos;
+using Scenario.Application.Dtos.PlotDtos;
 using Scenario.Application.Dtos.PlotRatingDtos;
+using Scenario.Application.Dtos.ScriptwriterDtos;
+using Scenario.Application.Dtos.UserDtos;
 using Scenario.Core.Entities;
 
 namespace Scenario.Application.Profiles
@@ -181,14 +186,34 @@ namespace Scenario.Application.Profiles
             //        src.Chapters.Select(c => c.Title))); // Include chapter titles
             CreateMap<CategoryCreateDto, Category>();
             CreateMap<CategoryUpdateDto, Category>();
-
             CreateMap<Category, CategoryDto>();
-            CreateMap<PlotRatingCreateDto, PlotRating>();
 
+            CreateMap<PlotRatingCreateDto, PlotRating>();
             CreateMap<PlotRatingUpdateDto, PlotRating>();
+
 
             CreateMap<PlotRating, PlotRatingDto>()
                 .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.UserName));
+            CreateMap<ChapterCreateDto, Chapter>();
+            CreateMap<Chapter, ChapterDto>();
+            CreateMap<ChapterUpdateDto, Chapter>();
+
+            CreateMap<ScriptwriterCreateDto, Scriptwriter>();
+
+            CreateMap<PlotCreateDto, Plot>()
+                        .ForMember(dest => dest.PlotCategories, opt => opt.MapFrom(src =>
+                            src.CategoryIds.Select(id => new PlotCategory { CategoryId = id }).ToList()
+                        ))
+                        .ForMember(dest => dest.CategoryName, opt => opt.Ignore());
+            CreateMap<Plot, PlotDto>();
+            CreateMap<PlotAppUser, PlotAppUserDto>().ReverseMap();
+            CreateMap<AppUser, UserGetDto>();
+            CreateMap<UserRegisterDto, AppUser>();
+
+            CreateMap<ContactUs, ContactUsDto>();
+            CreateMap<ContactUsCreateDto, ContactUs>();
+            CreateMap<ContactUsUpdateDto, ContactUs>();
+
         }
     }
 

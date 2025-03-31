@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rz9JOT6R3k5IUZZotv5fSlNq5uegr98dL7sJUM1iBRg=",
+  "Hash": "xLcKBkzwuftLIWz4VOYDDGEDberePhRhlzfwngAJ2ng=",
   "Source": "Scenario.API",
   "BasePath": "_content/Scenario.API",
   "Mode": "Default",
@@ -15,5 +15,44 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\img\\userImages\\480e28cd-2b91-459f-b15c-a7464bd45f4f.bin",
+      "SourceId": "Scenario.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\",
+      "BasePath": "_content/Scenario.API",
+      "RelativePath": "img/userImages/480e28cd-2b91-459f-b15c-a7464bd45f4f.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\userImages\\480e28cd-2b91-459f-b15c-a7464bd45f4f.bin"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\img\\userImages\\85f4cfce-d0b9-4c4b-9aa9-6ba27259b3a6.bin",
+      "SourceId": "Scenario.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\wwwroot\\",
+      "BasePath": "_content/Scenario.API",
+      "RelativePath": "img/userImages/85f4cfce-d0b9-4c4b-9aa9-6ba27259b3a6.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\userImages\\85f4cfce-d0b9-4c4b-9aa9-6ba27259b3a6.bin"
+    }
+  ]
 }

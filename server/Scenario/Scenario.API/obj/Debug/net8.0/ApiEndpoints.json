@@ -1,34 +1,8 @@
 [
   {
     "ContainingType": "MovieApp.API.Controllers.AuthController",
-    "Method": "Register",
-    "RelativePath": "api/Auth",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userRegisterDto",
-        "Type": "Scenario.Application.Dtos.UserDtos.UserRegisterDto",
-        "IsRequired": true
-      },
-      {
-        "Name": "planId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "isAdmin",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "MovieApp.API.Controllers.AuthController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/Auth/id",
+    "Method": "Delete",
+    "RelativePath": "api/Auth/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -36,7 +10,49 @@
       {
         "Name": "id",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Auth/all-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "ExternalLogin",
+    "RelativePath": "api/Auth/external-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "externalLoginDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.ExternalLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/Auth/forgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgetPasswordDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.ForgetPasswordDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -44,7 +60,7 @@
   {
     "ContainingType": "MovieApp.API.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/Auth/Login",
+    "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -59,16 +75,64 @@
   },
   {
     "ContainingType": "MovieApp.API.Controllers.AuthController",
-    "Method": "UserProfile",
-    "RelativePath": "api/Auth/Profile",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/Auth/profile/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userName",
+        "Name": "userId",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Auth/register/admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegisterDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recoverPasswordDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.RecoverPasswordDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -81,6 +145,59 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "ToggleFavoritePlot",
+    "RelativePath": "api/Auth/toggle-favorite-plot",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plotAppUserDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.PlotAppUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Auth/update/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateUserDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "GetUserFavoritePlots",
+    "RelativePath": "api/Auth/user-favorite-plots/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -145,6 +262,80 @@
     "ContainingType": "Scenario.API.Controllers.CategoryController",
     "Method": "Delete",
     "RelativePath": "api/Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ChapterController",
+    "Method": "GetAll",
+    "RelativePath": "api/Chapter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ChapterController",
+    "Method": "Create",
+    "RelativePath": "api/Chapter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chapterCreateDto",
+        "Type": "Scenario.Application.Dtos.ChapterDtos.ChapterCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ChapterController",
+    "Method": "Update",
+    "RelativePath": "api/Chapter",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chapterUpdateDto",
+        "Type": "Scenario.Application.Dtos.ChapterDtos.ChapterUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ChapterController",
+    "Method": "Get",
+    "RelativePath": "api/Chapter/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ChapterController",
+    "Method": "Delete",
+    "RelativePath": "api/Chapter/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

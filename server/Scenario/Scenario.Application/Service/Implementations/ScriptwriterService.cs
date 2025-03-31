@@ -45,7 +45,7 @@ namespace Scenario.Application.Service.Implementations
 
         public async Task<List<ScriptwriterDto>> GetAll()
         {
-            var scriptwriters = await _unitOfWork.ScriptwriterRepository.GetAll(null, "PlotCategories");
+            var scriptwriters = await _unitOfWork.ScriptwriterRepository.GetAll(null, "");
             if (scriptwriters == null) throw new CustomException(404, "Not Found");
             var scriptwriterDto = _mapper.Map<List<ScriptwriterDto>>(scriptwriters);
             return scriptwriterDto;

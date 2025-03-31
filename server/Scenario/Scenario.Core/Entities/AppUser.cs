@@ -7,5 +7,6 @@ namespace Scenario.Core.Entities
     {
         public string? UserImg { get; set; }
         public List<Comment> Comments { get; set; }
+        public List<PlotAppUser> PlotAppUsers { get; set; }//mant to many relation
     }
 }

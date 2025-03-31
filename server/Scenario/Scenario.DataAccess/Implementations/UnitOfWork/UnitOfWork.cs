@@ -11,8 +11,12 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
         public ICategoryRepository CategoryRepository { get; private set; }
         public IScriptwriterRepository ScriptwriterRepository { get; private set; }
         public IPlotRatingRepository PlotRatingRepository { get; private set; }
+        public IChapterRepository ChapterRepository { get; private set; }
+        public IPlotAppUserRepository PlotAppUserRepository { get; private set; }
+        public IPlotCategoryRepository PlotCategoryRepository { get; private set; }
+        public IContactUsRepository ContactUsRepository { get; private set; }
 
-        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository)
+        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository, IChapterRepository chapterRepository, IPlotAppUserRepository plotAppUserRepository = null, IPlotCategoryRepository plotCategoryRepository = null, IContactUsRepository contactUsRepository = null)
         {
             _context = context;
             PlotRepository = plotRepository;
@@ -20,6 +24,10 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
             CategoryRepository = categoryRepository;
             ScriptwriterRepository = scriptwriterRepository;
             PlotRatingRepository = plotRatingRepository;
+            ChapterRepository = chapterRepository;
+            PlotAppUserRepository = plotAppUserRepository;
+            PlotCategoryRepository = plotCategoryRepository;
+            ContactUsRepository = contactUsRepository;
         }
 
         public void Commit()

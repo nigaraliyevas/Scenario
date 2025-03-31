@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AspNet.Security.OAuth.Apple/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.0.3"
+        },
+        "compile": {
+          "lib/net8.0/AspNet.Security.OAuth.Apple.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AspNet.Security.OAuth.Apple.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "AutoMapper/13.0.1": {
         "type": "package",
         "dependencies": {
@@ -742,6 +761,38 @@
             "related": ".xml"
           }
         }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {
         "type": "package",
@@ -3017,7 +3068,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AspNet.Security.OAuth.Apple": "8.0.0",
           "AutoMapper": "13.0.1",
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.0",
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
           "Scenario.DataAccess": "1.0.0"
         },
@@ -3060,6 +3114,21 @@
     }
   },
   "libraries": {
+    "AspNet.Security.OAuth.Apple/8.0.0": {
+      "sha512": "Tjcq0N0yJ8q9yRxBpFrNDEsRE969Et4fSPxgDPOB0CXMiYVcJHcdiuZXv6FlmHvJHPgdjLEk1XJN1Wye9VX+aw==",
+      "type": "package",
+      "path": "aspnet.security.oauth.apple/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "aspnet.security.oauth.apple.8.0.0.nupkg.sha512",
+        "aspnet.security.oauth.apple.nuspec",
+        "lib/net8.0/AspNet.Security.OAuth.Apple.dll",
+        "lib/net8.0/AspNet.Security.OAuth.Apple.xml"
+      ]
+    },
     "AutoMapper/13.0.1": {
       "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "type": "package",
@@ -3944,6 +4013,36 @@
         "lib/netstandard2.0/MicroElements.Swashbuckle.FluentValidation.xml",
         "microelements.swashbuckle.fluentvalidation.6.1.0.nupkg.sha512",
         "microelements.swashbuckle.fluentvalidation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.0": {
+      "sha512": "fniH775aegFKKbTGNtbjbczcs/DEEaYo8pSJNHwUoVQKaYgJ7C4YDHo30jeUk1XZrBaksSTEK8NFUmxPWQOBHg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.8.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.0": {
+      "sha512": "dPE/IiHhBqnJ7WrD72T20+DcHGCaR9F4RmIFap83W1Ts/ze5gBVe4Ii02qJdJzkUniQy5S/v42zpRIgJTPzPqQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.8.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {

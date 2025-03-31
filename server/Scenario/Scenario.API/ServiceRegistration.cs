@@ -68,17 +68,34 @@ namespace Scenario.API
             services.AddScoped<IPlotRatingRepository, PlotRatingRepository>();
             services.AddScoped<IPlotRatingService, PlotRatingService>();
 
+            services.AddScoped<IChapterRepository, ChapterRepository>();
+
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IChapterService, ChapterService>();
+
+            services.AddScoped<IContactUsRepository, ContactUsRepository>();
+            services.AddScoped<IContactUsService, ContactUsService>();
+
+
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            //email
+
+            services.Configure<EmailConfigurationSettings>(config.GetSection("EmailConfiguration"));
+
+            services.AddSingleton<IEmailSenderService, EmailSenderService>();
+
+            services.Configure<DataProtectionTokenProviderOptions>(options => options.TokenLifespan = TimeSpan.FromMinutes(5));
+            //
 
             //end
 
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddAutoMapper(opt =>
             {
                 opt.AddProfile(new MapperProfile());
             });
-
-            services.AddHttpContextAccessor();
 
             services.AddIdentity<AppUser, IdentityRole>(opt =>
             {
@@ -107,6 +124,29 @@ namespace Scenario.API
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:SecretKey"])),
                 };
             });
+
+
+            services.AddAuthentication()
+                 .AddCookie(options =>
+                 {
+                     options.LoginPath = "/login";  // Redirect to login page
+                     options.LogoutPath = "/logout"; // Redirect after logout
+                     options.AccessDeniedPath = "/access-denied"; // Redirect if unauthorized
+                 })
+                .AddGoogle(options =>
+                {
+                    options.ClientId = config["Authentication:Google:ClientId"];
+                    options.ClientSecret = config["Authentication:Google:ClientSecret"];
+                });
+
+            //.AddApple(options =>
+            //{
+            //    options.ClientId = config["Authentication:Apple:ClientId"];  // Service ID
+            //    options.TeamId = config["Authentication:Apple:TeamId"]; // Apple Developer Team ID
+            //    options.KeyId = config["Authentication:Apple:KeyId"]; // Key ID from Apple
+            //    options.UsePrivateKey((keyId) =>builder.Environment.ContentRootFileProvider.GetFileInfo("AuthKey.p8"));
+            //});
+
 
             //Jwt Bearer send in UI
             services.AddSwaggerGen(opt =>

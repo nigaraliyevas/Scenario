@@ -271,3 +271,6 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\Scenario.API.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\Scenario.API.genruntimeconfig.cache
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\obj\Debug\net8.0\ref\Scenario.API.dll
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\bin\Debug\net8.0\AspNet.Security.OAuth.Apple.dll
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
