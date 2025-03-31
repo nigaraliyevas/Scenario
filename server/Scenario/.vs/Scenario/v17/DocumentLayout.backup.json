@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250331193545_addedEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scenario.DataAccess\\Migrations\\20250331193545_addedEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\appsettingscopy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettingscopy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\userdtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +118,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IContactUsService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IContactUsService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IContactUsService.cs",
@@ -127,51 +127,24 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T18:51:01.713Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250331193545_addedEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250331193545_addedEntity.cs",
-              "RelativeDocumentMoniker": "Scenario.DataAccess\\Migrations\\20250331193545_addedEntity.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250331193545_addedEntity.cs",
-              "RelativeToolTip": "Scenario.DataAccess\\Migrations\\20250331193545_addedEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:35:45.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactUsService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:22:41.683Z",
+              "Title": "appsettingscopy.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettingscopy.json",
+              "RelativeDocumentMoniker": "Scenario.API\\appsettingscopy.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettingscopy.json*",
+              "RelativeToolTip": "Scenario.API\\appsettingscopy.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-31T19:46:08.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ContactUsUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
-              "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:18:50.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ContactUsDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
@@ -179,12 +152,11 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T19:16:50.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:16:50.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ContactUsController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ContactUsController.cs",
               "RelativeDocumentMoniker": "Scenario.API\\Controllers\\ContactUsController.cs",
@@ -197,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ContactUsCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
@@ -205,12 +177,11 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:48:39.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:48:39.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
@@ -218,12 +189,11 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
               "ViewState": "AgIAAPAAAAAAAAAAAAAUwEgBAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:38:20.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:38:20.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ChapterService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ChapterService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ChapterService.cs",
@@ -231,12 +201,11 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ChapterService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:44:57.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:44:57.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Profiles\\MapperProfile.cs",
@@ -244,12 +213,48 @@
               "RelativeToolTip": "Scenario.Application\\Profiles\\MapperProfile.cs",
               "ViewState": "AgIAAMMAAAAAAAAAAAAAANgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:28:25.633Z",
+              "WhenOpened": "2025-03-27T13:28:25.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Scenario.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
+              "RelativeToolTip": "Scenario.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T13:12:27.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "ContactUsUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\ContactUsDtos\\ContactUsUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:18:50.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactUsService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:22:41.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Scenario.API\\ServiceRegistration.cs",
@@ -257,12 +262,11 @@
               "RelativeToolTip": "Scenario.API\\ServiceRegistration.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAgwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T13:15:17.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T13:15:17.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ContactUs.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\ContactUs.cs",
               "RelativeDocumentMoniker": "Scenario.Core\\Entities\\ContactUs.cs",
@@ -270,21 +274,7 @@
               "RelativeToolTip": "Scenario.Core\\Entities\\ContactUs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:47:05.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Scenario.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
-              "RelativeToolTip": "Scenario.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T13:12:27.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T18:47:05.978Z"
             },
             {
               "$type": "Document",
@@ -296,8 +286,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UserGetDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:51:07.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:51:07.308Z"
             },
             {
               "$type": "Document",
@@ -309,12 +298,11 @@
               "RelativeToolTip": "Scenario.Application\\Settings\\EmailConfigurationSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:38:22.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T11:38:22.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
@@ -322,8 +310,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UserProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:26:15.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:26:15.432Z"
             },
             {
               "$type": "Document",
@@ -335,8 +322,7 @@
               "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IAuthenticationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T11:06:18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T11:06:18Z"
             },
             {
               "$type": "Document",
@@ -348,8 +334,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\ForgetPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T11:25:09.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T11:25:09.031Z"
             },
             {
               "$type": "Document",
@@ -361,8 +346,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UpdateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:33:00.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:33:00.559Z"
             },
             {
               "$type": "Document",
@@ -374,8 +358,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\ChapterDtos\\ChapterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:43:38.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T09:43:38.099Z"
             },
             {
               "$type": "Document",
@@ -387,8 +370,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\ExternalLoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T12:47:29.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T12:47:29.518Z"
             },
             {
               "$type": "Document",
@@ -400,8 +382,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\PlotAppUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:27:38.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T13:27:38.118Z"
             },
             {
               "$type": "Document",
@@ -413,8 +394,7 @@
               "RelativeToolTip": "Scenario.Core\\Entities\\PlotAppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:49:28.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T12:49:28.963Z"
             },
             {
               "$type": "Document",
@@ -426,8 +406,7 @@
               "RelativeToolTip": "Scenario.Application\\Dtos\\UserDtos\\UserRegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:41:04.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:41:04.966Z"
             },
             {
               "$type": "Document",
@@ -451,8 +430,7 @@
               "RelativeToolTip": "Scenario.Core\\Entities\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:55:38.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:55:38.069Z"
             }
           ]
         }
