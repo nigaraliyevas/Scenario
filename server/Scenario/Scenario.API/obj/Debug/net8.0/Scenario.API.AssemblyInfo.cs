@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Scenario.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac18eb50c8b316aed14af6c8f5e3b89e33c5f00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47f044809b0340511fe6efd278aa0a2866d7ada0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Scenario.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Scenario.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
