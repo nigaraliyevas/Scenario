@@ -1,4 +1,4 @@
-﻿using Scenario.Core.Entities;
+using Scenario.Core.Entities;
 using Scenario.Core.Repositories;
 using Scenario.DataAccess.Data;
 

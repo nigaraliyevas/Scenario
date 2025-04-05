@@ -21,7 +21,6 @@ namespace Scenario.Application.Service.Implementations
 
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-            // Validate the email addresses
             try
             {
                 var fromAddress = new MailAddress(_emailConfig.Username.Trim());
@@ -41,6 +40,7 @@ namespace Scenario.Application.Service.Implementations
                 EnableSsl = true, // Enable SSL (Gmail requires this)
                 UseDefaultCredentials = false,
                 DeliveryMethod = SmtpDeliveryMethod.Network
+
             };
 
             using var mailMessage = new MailMessage
@@ -48,7 +48,9 @@ namespace Scenario.Application.Service.Implementations
                 From = new MailAddress(_emailConfig.Username.Trim()),
                 Subject = subject,
                 Body = message,
-                IsBodyHtml = true
+                IsBodyHtml = true,
+                BodyEncoding = System.Text.Encoding.UTF8,
+                SubjectEncoding = System.Text.Encoding.Default,
             };
 
             mailMessage.To.Add(toEmail);

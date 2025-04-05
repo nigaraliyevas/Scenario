@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.UserDtos;
 using Scenario.Application.Service.Interfaces;
+using System.Security.Claims;
 
 namespace MovieApp.API.Controllers
 {
@@ -126,13 +127,13 @@ namespace MovieApp.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserRegisterDto userRegisterDto)
         {
-            return Ok(_authService.Register(userRegisterDto));
+            return Ok(await _authService.Register(userRegisterDto));
         }
 
         [HttpPost("register/admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] UserRegisterDto userRegisterDto)
         {
-            return Ok(_authService.RegisterAdmin(userRegisterDto));
+            return Ok(await _authService.RegisterAdmin(userRegisterDto));
 
         }
 
@@ -143,10 +144,11 @@ namespace MovieApp.API.Controllers
             return Ok(await _authService.Login(userLoginDto));
         }
 
-        [HttpGet("profile/{userId}")]
-        public async Task<IActionResult> GetUserProfile(string userId)
+        [HttpGet("profile")]
+        [Authorize]
+        public async Task<IActionResult> GetUserProfile()
         {
-
+            var userId = User.FindFirstValue("id");
             return Ok(await _authService.GetUserProfile(userId));
         }
 
@@ -205,7 +207,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpGet("all-users")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllUsers()
         {
             return Ok(await _authService.GetAllUsers());

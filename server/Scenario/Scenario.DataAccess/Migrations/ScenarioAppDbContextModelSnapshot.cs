@@ -289,6 +289,10 @@ namespace Scenario.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<int>("ChapterId")
                         .HasColumnType("int");
 
@@ -305,17 +309,13 @@ namespace Scenario.DataAccess.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
 
                     b.HasIndex("ChapterId");
 
                     b.HasIndex("ParentCommentId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Comments");
                 });
@@ -439,6 +439,10 @@ namespace Scenario.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -451,15 +455,11 @@ namespace Scenario.DataAccess.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("PlotId");
+                    b.HasIndex("AppUserId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("PlotId");
 
                     b.ToTable("PlotRatings");
                 });
@@ -502,6 +502,36 @@ namespace Scenario.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Scriptwriters");
+                });
+
+            modelBuilder.Entity("Scenario.Core.Entities.UserScenarioFavorite", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PlotId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("PlotId");
+
+                    b.ToTable("UserScenarioFavorite");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -568,6 +598,12 @@ namespace Scenario.DataAccess.Migrations
 
             modelBuilder.Entity("Scenario.Core.Entities.Comment", b =>
                 {
+                    b.HasOne("Scenario.Core.Entities.AppUser", "AppUser")
+                        .WithMany("Comments")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Scenario.Core.Entities.Chapter", "Chapter")
                         .WithMany("Comments")
                         .HasForeignKey("ChapterId")
@@ -578,17 +614,11 @@ namespace Scenario.DataAccess.Migrations
                         .WithMany("Replies")
                         .HasForeignKey("ParentCommentId");
 
-                    b.HasOne("Scenario.Core.Entities.AppUser", "User")
-                        .WithMany("Comments")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("AppUser");
 
                     b.Navigation("Chapter");
 
                     b.Navigation("ParentComment");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Scenario.Core.Entities.Plot", b =>
@@ -642,19 +672,38 @@ namespace Scenario.DataAccess.Migrations
 
             modelBuilder.Entity("Scenario.Core.Entities.PlotRating", b =>
                 {
+                    b.HasOne("Scenario.Core.Entities.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Scenario.Core.Entities.Plot", "Scenario")
                         .WithMany("Ratings")
                         .HasForeignKey("PlotId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Scenario");
+                });
+
+            modelBuilder.Entity("Scenario.Core.Entities.UserScenarioFavorite", b =>
+                {
                     b.HasOne("Scenario.Core.Entities.AppUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
+                        .WithMany("LikedScenarios")
+                        .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Scenario");
+                    b.HasOne("Scenario.Core.Entities.Plot", "Plot")
+                        .WithMany()
+                        .HasForeignKey("PlotId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Plot");
 
                     b.Navigation("User");
                 });
@@ -662,6 +711,8 @@ namespace Scenario.DataAccess.Migrations
             modelBuilder.Entity("Scenario.Core.Entities.AppUser", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("LikedScenarios");
 
                     b.Navigation("PlotAppUsers");
                 });

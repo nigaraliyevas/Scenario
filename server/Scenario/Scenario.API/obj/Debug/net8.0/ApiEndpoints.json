@@ -1,5 +1,78 @@
 [
   {
+    "ContainingType": "Scenario.API.Controllers.AboutTestimonialController",
+    "Method": "GetById",
+    "RelativePath": "api/AboutTestimonial/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.AboutTestimonialController",
+    "Method": "Update",
+    "RelativePath": "api/AboutTestimonial/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Header",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.AboutTestimonialController",
+    "Method": "Create",
+    "RelativePath": "api/AboutTestimonial/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Header",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MovieApp.API.Controllers.AuthController",
     "Method": "Delete",
     "RelativePath": "api/Auth/{id}",
@@ -10,6 +83,27 @@
       {
         "Name": "id",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieApp.API.Controllers.AuthController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Auth/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateUserDto",
+        "Type": "Scenario.Application.Dtos.UserDtos.UpdateUserDto",
         "IsRequired": true
       }
     ],
@@ -76,17 +170,11 @@
   {
     "ContainingType": "MovieApp.API.Controllers.AuthController",
     "Method": "GetUserProfile",
-    "RelativePath": "api/Auth/profile/{userId}",
+    "RelativePath": "api/Auth/profile",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -158,27 +246,6 @@
       {
         "Name": "plotAppUserDto",
         "Type": "Scenario.Application.Dtos.UserDtos.PlotAppUserDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "MovieApp.API.Controllers.AuthController",
-    "Method": "UpdateUser",
-    "RelativePath": "api/Auth/update/{userId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.String",
-        "IsRequired": true
-      },
-      {
-        "Name": "updateUserDto",
-        "Type": "Scenario.Application.Dtos.UserDtos.UpdateUserDto",
         "IsRequired": true
       }
     ],
@@ -423,6 +490,117 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ContactUsController",
+    "Method": "GetAll",
+    "RelativePath": "api/ContactUs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ContactUsController",
+    "Method": "GetById",
+    "RelativePath": "api/ContactUs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ContactUsController",
+    "Method": "Update",
+    "RelativePath": "api/ContactUs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contactUsUpdateDto",
+        "Type": "Scenario.Application.Dtos.ContactUsDtos.ContactUsUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ContactUsController",
+    "Method": "Delete",
+    "RelativePath": "api/ContactUs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.ContactUsController",
+    "Method": "SubmitContact",
+    "RelativePath": "api/ContactUs/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactUsCreateDto",
+        "Type": "Scenario.Application.Dtos.ContactUsDtos.ContactUsCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.LikeDislikeController",
+    "Method": "CreateDislike",
+    "RelativePath": "api/LikeDislike/dislike",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "likeDislikeCreateDto",
+        "Type": "Scenario.Application.Dtos.LikeDislikeDtos.LikeDislikeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.LikeDislikeController",
+    "Method": "CreateLike",
+    "RelativePath": "api/LikeDislike/like",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "likeDislikeCreateDto",
+        "Type": "Scenario.Application.Dtos.LikeDislikeDtos.LikeDislikeCreateDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -697,6 +875,122 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.SettingsController",
+    "Method": "GetAllSettings",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.SettingsController",
+    "Method": "UpdateSettings",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settings",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.SettingsController",
+    "Method": "CreateSetting",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingsCreateDto",
+        "Type": "Scenario.Application.Dtos.SettingsDtos.SettingsCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.SettingsController",
+    "Method": "GetSettingByKey",
+    "RelativePath": "api/Settings/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.UserScenarioFavoriteController",
+    "Method": "GetLikedScenariosByUserId",
+    "RelativePath": "api/UserScenarioFavorite/{userId}/liked-scenarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.UserScenarioFavoriteController",
+    "Method": "AddToFavorites",
+    "RelativePath": "api/UserScenarioFavorite/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scenarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scenario.API.Controllers.UserScenarioFavoriteController",
+    "Method": "RemoveFromFavorites",
+    "RelativePath": "api/UserScenarioFavorite/remove",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scenarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

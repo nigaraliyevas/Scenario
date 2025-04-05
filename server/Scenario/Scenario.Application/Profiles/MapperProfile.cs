@@ -193,7 +193,7 @@ namespace Scenario.Application.Profiles
 
 
             CreateMap<PlotRating, PlotRatingDto>()
-                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.UserName));
+                .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.AppUser.UserName));
             CreateMap<ChapterCreateDto, Chapter>();
             CreateMap<Chapter, ChapterDto>();
             CreateMap<ChapterUpdateDto, Chapter>();

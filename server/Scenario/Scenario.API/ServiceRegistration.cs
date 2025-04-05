@@ -91,6 +91,19 @@ namespace Scenario.API
 
             //end
 
+            //gulbahar
+            services.AddScoped<IAboutTestimonialService, AboutTestimonialService>();
+            services.AddScoped<ILikeDislikeService, LikeDislikeService>();
+            services.AddScoped<ISettingsService, SettingsService>();
+            services.AddScoped<IUserScenarioFavoriteService, UserScenarioFavoriteService>();
+
+            services.AddScoped<IAboutTestimonialRepository, AboutTestimonialRepository>();
+            services.AddScoped<ISettingsRepository, SettingsRepository>();
+            services.AddScoped<ILikeDislikeRepository, LikeDislikeRepository>();
+            services.AddScoped<IUserScenarioFavoriteRepository, UserScenarioFavoriteRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+
+
 
             services.AddAutoMapper(opt =>
             {

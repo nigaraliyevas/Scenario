@@ -25,12 +25,12 @@ namespace Scenario.Application.Service.Implementations
                 throw new CustomException(400, "Rating must be between 1 and 5");
 
             var existingRating = await _unitOfWork.PlotRatingRepository
-                .GetEntity(x => x.PlotId == ratingDto.PlotId && x.UserId == userId);
+                .GetEntity(x => x.PlotId == ratingDto.PlotId && x.AppUserId == userId);
 
             if (existingRating == null)
             {
                 var newRating = _mapper.Map<PlotRating>(ratingDto);
-                newRating.UserId = userId;
+                newRating.AppUserId = userId;
                 await _unitOfWork.PlotRatingRepository.Create(newRating);
             }
             else

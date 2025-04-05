@@ -6,6 +6,7 @@
         public string Content { get; set; }
         public int ChapterId { get; set; }
         public int? ParentCommentId { get; set; }
+        public string AppUserId { get; set; }
 
     }
 }

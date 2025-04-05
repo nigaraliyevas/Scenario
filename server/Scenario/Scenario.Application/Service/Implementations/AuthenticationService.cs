@@ -49,42 +49,43 @@ namespace Scenario.Application.Service.Implementations
             _emailConfig = emailConfig;
         }
 
-        public async Task Register(UserRegisterDto userRegisterDto)
+        public async Task<string> Register(UserRegisterDto userRegisterDto)
         {
             var existUser = await _userManager.FindByNameAsync(userRegisterDto.Username);
             if (existUser != null) throw new CustomException("404", "Conflict");
             if (userRegisterDto.Password != userRegisterDto.RePassword) throw new CustomException("409", "Passwords don't match");
+
             string userImage = null;
-            if (userRegisterDto.Image != null)
+            if (!string.IsNullOrEmpty(userRegisterDto.Image))
             {
                 if (!userRegisterDto.Image.CheckContentType("image"))
-                {
                     throw new CustomException(400, "The file has to be img");
-                }
+
                 if (userRegisterDto.Image.CheckSize(1024))
-                {
                     throw new CustomException(400, "The file is too large");
-                }
+
                 userImage = await userRegisterDto.Image.SaveFile("userImages", _httpContextAccessor);
             }
 
             var newUser = _mapper.Map<AppUser>(userRegisterDto);
             newUser.UserImg = userImage;
 
-            await _userManager.AddToRoleAsync(newUser, UserRoles.Member.ToString());
             var result = await _userManager.CreateAsync(newUser, userRegisterDto.Password);
             if (!result.Succeeded)
                 throw new CustomException(400, "Not Succeeded");
 
+            await _userManager.AddToRoleAsync(newUser, UserRoles.Member.ToString());
+
+            return newUser.Id;
         }
         //admin register
-        public async Task RegisterAdmin(UserRegisterDto userRegisterDto)
+        public async Task<string> RegisterAdmin(UserRegisterDto userRegisterDto)
         {
             var existUser = await _userManager.FindByNameAsync(userRegisterDto.Username);
             if (existUser != null) throw new CustomException("404", "Conflict");
             if (userRegisterDto.Password != userRegisterDto.RePassword) throw new CustomException("409", "Passwords don't match");
             string userImage = null;
-            if (userRegisterDto.Image != null)
+            if (!string.IsNullOrEmpty((userRegisterDto.Image)))
             {
                 if (!userRegisterDto.Image.CheckContentType("image"))
                 {
@@ -105,6 +106,8 @@ namespace Scenario.Application.Service.Implementations
                 throw new CustomException(400, "Not Succeeded");
 
             await _userManager.AddToRoleAsync(newUser, UserRoles.Admin.ToString());
+
+            return newUser.Id;
         }
 
         //login user and admin
@@ -167,12 +170,12 @@ namespace Scenario.Application.Service.Implementations
 
             // Fetch Favorite Plots
             var favoritePlots = await _unitOfWork.PlotAppUserRepository
-                .GetAll(p => p.AppUserId == userId && p.IsFavorite, "Plot");
+                .GetAll(p => p.AppUserId == userId && p.IsFavorite, "Plot", "AppUser");
             var favoritePlotDtos = _mapper.Map<List<PlotDto>>(favoritePlots.Select(p => p.Plot));
 
             // Fetch User Comments
             var userComments = await _unitOfWork.CommentRepository
-                .GetAll(c => c.UserId == userId);
+                .GetAll(c => c.AppUserId == userId);
             var userCommentDtos = _mapper.Map<List<CommentDto>>(userComments);
 
             return new UserProfileDto
@@ -329,7 +332,8 @@ namespace Scenario.Application.Service.Implementations
         public async Task<bool> ToggleFavoritePlot(PlotAppUserDto plotAppUserDto)
         {
             if (plotAppUserDto.UserId == null || plotAppUserDto.PlotId <= 0) throw new CustomException(400, "user id or plot id is not right");
-            var existingFavorite = await _unitOfWork.PlotAppUserRepository.GetEntity(f => f.AppUserId == plotAppUserDto.UserId && f.PlotId == plotAppUserDto.PlotId);
+            //var existingFavorite = await _unitOfWork.PlotAppUserRepository.GetEntity(f => f.AppUser.Id == plotAppUserDto.UserId && f.Plot.Id == plotAppUserDto.PlotId, "Plot", "AppUser", "PlotAppUser");
+            var existingFavorite = await _unitOfWork.PlotAppUserRepository.GetEntity(f => f.AppUser.Id == plotAppUserDto.UserId && f.Plot.Id == plotAppUserDto.PlotId, "PlotAppUser", "PlotAppUser.Plot", "PlotAppUser.AppUser");
 
             if (existingFavorite != null)
             {

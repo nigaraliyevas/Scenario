@@ -1,6 +1,4 @@
-﻿
 using Scenario.Core.Repositories;
-
 namespace Scenario.DataAccess.Implementations.UnitOfWork
 {
     public interface IUnitOfWork
@@ -15,6 +13,10 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
         public IPlotCategoryRepository PlotCategoryRepository { get; }
         public IContactUsRepository ContactUsRepository { get; }
 
+        public IAboutTestimonialRepository AboutTestimonialRepository { get; }
+        public ISettingsRepository SettingsRepository { get; }
+        public IUserScenarioFavoriteRepository UserScenarioFavoriteRepository { get; }
+        public ILikeDislikeRepository LikeDislikeRepository { get; }
 
         public void Commit();
 

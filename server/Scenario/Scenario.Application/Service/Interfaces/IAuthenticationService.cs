@@ -5,8 +5,8 @@ namespace Scenario.Application.Service.Interfaces
 {
     public interface IAuthenticationService
     {
-        Task Register(UserRegisterDto userRegisterDto);
-        Task RegisterAdmin(UserRegisterDto userRegisterDto);
+        Task<string> Register(UserRegisterDto userRegisterDto);
+        Task<string> RegisterAdmin(UserRegisterDto userRegisterDto);
         Task<string> Login(UserLoginDto userLoginDto);
         Task CreateRole();
         Task<UserProfileDto> GetUserProfile(string username);

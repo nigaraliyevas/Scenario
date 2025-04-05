@@ -16,7 +16,12 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
         public IPlotCategoryRepository PlotCategoryRepository { get; private set; }
         public IContactUsRepository ContactUsRepository { get; private set; }
 
-        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository, IChapterRepository chapterRepository, IPlotAppUserRepository plotAppUserRepository = null, IPlotCategoryRepository plotCategoryRepository = null, IContactUsRepository contactUsRepository = null)
+        public IAboutTestimonialRepository AboutTestimonialRepository { get; private set; }
+        public ISettingsRepository SettingsRepository { get; private set; }
+        public IUserScenarioFavoriteRepository UserScenarioFavoriteRepository { get; private set; }
+        public ILikeDislikeRepository LikeDislikeRepository { get; private set; }
+
+        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository, IChapterRepository chapterRepository, IPlotAppUserRepository plotAppUserRepository = null, IPlotCategoryRepository plotCategoryRepository = null, IContactUsRepository contactUsRepository = null, IAboutTestimonialRepository aboutTestimonialRepository = null, ISettingsRepository settingsRepository = null, IUserScenarioFavoriteRepository userScenarioFavoriteRepository = null, ILikeDislikeRepository likeDislikeRepository = null)
         {
             _context = context;
             PlotRepository = plotRepository;
@@ -28,6 +33,11 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
             PlotAppUserRepository = plotAppUserRepository;
             PlotCategoryRepository = plotCategoryRepository;
             ContactUsRepository = contactUsRepository;
+
+            AboutTestimonialRepository = aboutTestimonialRepository;
+            SettingsRepository = settingsRepository;
+            UserScenarioFavoriteRepository = userScenarioFavoriteRepository;
+            LikeDislikeRepository = likeDislikeRepository;
         }
 
         public void Commit()
