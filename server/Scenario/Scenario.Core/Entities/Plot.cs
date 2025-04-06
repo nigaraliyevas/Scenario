@@ -5,12 +5,12 @@ namespace Scenario.Core.Entities
     public class Plot : BaseEntity
     {
         public string Header { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public string Description { get; set; }
-        public string CategoryName { get; set; }
+        //public string CategoryName { get; set; }
 
 
-        public List<PlotRating> Ratings { get; set; }//one to many with plot
+        public List<PlotRating> PlotRatings { get; set; }//one to many with plot
         public double AverageRating;
 
         public int ReadCount { get; set; }
@@ -23,5 +23,7 @@ namespace Scenario.Core.Entities
         public List<PlotCategory> PlotCategories { get; set; }
         public List<PlotAppUser> PlotAppUsers { get; set; }
         public int CommentedCount { get; set; }
+
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Scenario.Application.Dtos.CategoryDtos;
 using Scenario.Application.Dtos.ChapterDtos;
+using Scenario.Application.Dtos.CommentDtos;
 using Scenario.Application.Dtos.ContactUsDtos;
 using Scenario.Application.Dtos.PlotDtos;
 using Scenario.Application.Dtos.PlotRatingDtos;
@@ -195,16 +196,12 @@ namespace Scenario.Application.Profiles
             CreateMap<PlotRating, PlotRatingDto>()
                 .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.AppUser.UserName));
             CreateMap<ChapterCreateDto, Chapter>();
-            CreateMap<Chapter, ChapterDto>();
+            //CreateMap<Chapter, ChapterDto>();
             CreateMap<ChapterUpdateDto, Chapter>();
 
             CreateMap<ScriptwriterCreateDto, Scriptwriter>();
 
-            CreateMap<PlotCreateDto, Plot>()
-                        .ForMember(dest => dest.PlotCategories, opt => opt.MapFrom(src =>
-                            src.CategoryIds.Select(id => new PlotCategory { CategoryId = id }).ToList()
-                        ))
-                        .ForMember(dest => dest.CategoryName, opt => opt.Ignore());
+            CreateMap<PlotCreateDto, Plot>();
             CreateMap<Plot, PlotDto>();
             CreateMap<PlotAppUser, PlotAppUserDto>().ReverseMap();
             CreateMap<AppUser, UserGetDto>();
@@ -213,7 +210,17 @@ namespace Scenario.Application.Profiles
             CreateMap<ContactUs, ContactUsDto>();
             CreateMap<ContactUsCreateDto, ContactUs>();
             CreateMap<ContactUsUpdateDto, ContactUs>();
-
+            CreateMap<CommentCreateDto, Comment>()
+            .ForMember(dest => dest.ParentCommentId,
+                opt => opt.MapFrom(src => src.ParentCommentId == 0 ? null : src.ParentCommentId));
+            CreateMap<Comment, CommentDto>();
+            CreateMap<Chapter, ChapterDto>()
+                .ForMember(dest => dest.Content, opt => opt.Ignore());
+            CreateMap<Plot, PlotDto>()
+            .ForMember(dest => dest.ScriptwriterName, opt => opt.MapFrom(src => src.Scriptwriter.Name + " " + src.Scriptwriter.Surname)) // Combine first and last name
+            .ForMember(dest => dest.CategoryIds, opt => opt.MapFrom(src => src.PlotCategories.Select(pc => pc.CategoryId)))
+            .ForMember(dest => dest.Ratings, opt => opt.MapFrom(src => src.PlotRatings))
+            .ReverseMap();
         }
     }
 

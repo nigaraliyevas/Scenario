@@ -10,6 +10,9 @@ namespace Scenario.Core.Entities
         public List<PlotAppUser> PlotAppUsers { get; set; }//mant to many relation
         // İstifadəçinin bəyəndiyi ssenarilər
         public List<UserScenarioFavorite> LikedScenarios { get; set; }
+
+        public List<PlotRating> PlotRatings { get; set; }
+
         //todo bunu Plot cedveline elave et
         /*
         // Ssenarini bəyənən istifadəçilər

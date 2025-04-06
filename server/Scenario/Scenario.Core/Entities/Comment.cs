@@ -6,6 +6,7 @@ namespace Scenario.Core.Entities
     {
         public string Content { get; set; }
         public string AppUserId { get; set; }
+        public string AppUserName { get; set; }
         public AppUser AppUser { get; set; }
 
         public int ChapterId { get; set; }

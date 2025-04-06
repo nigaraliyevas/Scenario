@@ -21,9 +21,14 @@ public class PlotDto
     public Scriptwriter Scriptwriter { get; set; }
 
     public List<Chapter> Chapters { get; set; }
-    public List<PlotCategory> PlotCategories { get; set; }
+    public List<string> PlotCategories { get; set; }
+    public string CategoryName { get; set; }
+
 
     public List<PlotRatingDto> Ratings { get; set; }
     public int CommentedCount { get; set; }
+    public DateTime? CreatedDate { get; set; }
+
+
 
 }

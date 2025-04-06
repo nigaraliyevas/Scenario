@@ -4,9 +4,9 @@
     {
         public int Id { get; set; }
         public string Content { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public string UserId { get; set; }
-        public string UserName { get; set; } // For displaying user info
+        public DateTime CreatedDate { get; set; }
+        public string AppUserId { get; set; }
+        public string AppUserName { get; set; }
         public int ChapterId { get; set; }
         public int? ParentCommentId { get; set; }
         public List<CommentDto> Replies { get; set; } // Nested replies

@@ -4,8 +4,8 @@ namespace Scenario.Application.Service.Interfaces
 {
     public interface IChapterService
     {
-        Task<int> Create(ChapterCreateDto categoryCreateDto);
-        Task<int> Update(ChapterUpdateDto categoryUpdateDto);
+        Task<ChapterDto> Create(ChapterCreateDto categoryCreateDto);
+        Task<ChapterDto> Update(ChapterUpdateDto categoryUpdateDto);
         Task<int> Delete(int id);
         Task<List<ChapterDto>> GetAll();
         Task<ChapterDto> GetById(int id);

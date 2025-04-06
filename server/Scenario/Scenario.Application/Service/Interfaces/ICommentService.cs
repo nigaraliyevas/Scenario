@@ -9,7 +9,7 @@ namespace Scenario.Application.Service.Interfaces
         Task<int> AddReplyToComment(int parentCommentId, CommentCreateDto commentCreateDto);
         Task<int> Update(CommentUpdateDto commentUpdateDto, int id);
         Task<int> Delete(int id);
-        Task<List<Comment>> GetAll();
+        Task<List<CommentDto>> GetAll();
         Task<Comment> GetById(int id);
     }
 }

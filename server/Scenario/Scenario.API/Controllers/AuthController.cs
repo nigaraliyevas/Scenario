@@ -145,7 +145,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpGet("profile")]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUserProfile()
         {
             var userId = User.FindFirstValue("id");
@@ -153,7 +153,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpPut("{userId}")]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateUser(string userId, [FromBody] UpdateUserDto updateUserDto)
         {
 
@@ -162,7 +162,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(string id)
         {
             return Ok(await _authService.Delete(id));

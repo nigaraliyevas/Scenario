@@ -19,6 +19,7 @@ namespace Scenario.DataAccess.Data
         public DbSet<Scriptwriter> Scriptwriters { get; set; }
         public DbSet<PlotRating> PlotRatings { get; set; }
         public DbSet<PlotAppUser> PlotAppUsers { get; set; }
+        public DbSet<ContactUs> Contacts { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

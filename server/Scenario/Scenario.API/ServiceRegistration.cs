@@ -77,6 +77,9 @@ namespace Scenario.API
             services.AddScoped<IContactUsService, ContactUsService>();
 
 
+            services.AddScoped<IPlotAppUserRepository, PlotAppUserRepository>();
+
+
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 

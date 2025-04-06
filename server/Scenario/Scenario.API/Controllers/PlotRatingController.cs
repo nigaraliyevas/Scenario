@@ -29,9 +29,10 @@ namespace Scenario.API.Controllers
         }
 
         [HttpPost("rate")]
+
         public async Task<IActionResult> RatePlot(PlotRatingCreateDto ratingDto)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = User.FindFirstValue("id");
             if (string.IsNullOrEmpty(userId)) return Unauthorized();
             return Ok(await _plotRatingService.RatePlot(ratingDto, userId));
         }

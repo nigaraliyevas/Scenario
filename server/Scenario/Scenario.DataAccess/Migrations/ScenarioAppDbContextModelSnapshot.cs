@@ -293,6 +293,10 @@ namespace Scenario.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("AppUserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("ChapterId")
                         .HasColumnType("int");
 
@@ -320,7 +324,7 @@ namespace Scenario.DataAccess.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("Scenario.Core.Entities.Plot", b =>
+            modelBuilder.Entity("Scenario.Core.Entities.ContactUs", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -328,9 +332,40 @@ namespace Scenario.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CategoryName")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Subject")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("Scenario.Core.Entities.Plot", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CommentedCount")
                         .HasColumnType("int");
@@ -347,7 +382,6 @@ namespace Scenario.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ReadCount")
@@ -673,20 +707,20 @@ namespace Scenario.DataAccess.Migrations
             modelBuilder.Entity("Scenario.Core.Entities.PlotRating", b =>
                 {
                     b.HasOne("Scenario.Core.Entities.AppUser", "AppUser")
-                        .WithMany()
+                        .WithMany("PlotRatings")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Scenario.Core.Entities.Plot", "Scenario")
-                        .WithMany("Ratings")
+                    b.HasOne("Scenario.Core.Entities.Plot", "Plot")
+                        .WithMany("PlotRatings")
                         .HasForeignKey("PlotId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("AppUser");
 
-                    b.Navigation("Scenario");
+                    b.Navigation("Plot");
                 });
 
             modelBuilder.Entity("Scenario.Core.Entities.UserScenarioFavorite", b =>
@@ -715,6 +749,8 @@ namespace Scenario.DataAccess.Migrations
                     b.Navigation("LikedScenarios");
 
                     b.Navigation("PlotAppUsers");
+
+                    b.Navigation("PlotRatings");
                 });
 
             modelBuilder.Entity("Scenario.Core.Entities.Category", b =>
@@ -740,7 +776,7 @@ namespace Scenario.DataAccess.Migrations
 
                     b.Navigation("PlotCategories");
 
-                    b.Navigation("Ratings");
+                    b.Navigation("PlotRatings");
                 });
 
             modelBuilder.Entity("Scenario.Core.Entities.Scriptwriter", b =>

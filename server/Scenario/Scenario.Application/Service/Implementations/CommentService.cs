@@ -21,7 +21,7 @@ namespace Scenario.Application.Service.Implementations
             _userManager = userManager;
         }
 
-        public Task<int> AddReplyToComment(int parentCommentId, CommentCreateDto commentCreateDto) 
+        public Task<int> AddReplyToComment(int parentCommentId, CommentCreateDto commentCreateDto)
         {
             throw new NotImplementedException();
         }
@@ -32,6 +32,9 @@ namespace Scenario.Application.Service.Implementations
             var user = await _userManager.FindByIdAsync(commentCreateDto.AppUserId);
             if (user == null) throw new CustomException(404, "Not Found");
             var newComment = _mapper.Map<Comment>(commentCreateDto);
+            newComment.AppUserName = user.UserName;
+            //if (commentCreateDto.ParentCommentId == 0)
+            //    commentCreateDto.ParentCommentId = null;
             await _unitOfWork.CommentRepository.Create(newComment);
             _unitOfWork.Commit();
             return _mapper.Map<CommentDto>(newComment);
@@ -47,11 +50,11 @@ namespace Scenario.Application.Service.Implementations
             return existComment.Id;
         }
 
-        public async Task<List<Comment>> GetAll()
+        public async Task<List<CommentDto>> GetAll()
         {
             var comments = await _unitOfWork.CommentRepository.GetAll(null, "AppUser");
             if (comments == null) throw new CustomException(404, "Null Exception");
-            return comments;
+            return _mapper.Map<List<CommentDto>>(comments);
         }
 
         public async Task<Comment> GetById(int id)

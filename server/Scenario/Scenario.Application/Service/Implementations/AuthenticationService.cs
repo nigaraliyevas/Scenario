@@ -168,12 +168,10 @@ namespace Scenario.Application.Service.Implementations
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null) throw new CustomException(404, "User not found");
 
-            // Fetch Favorite Plots
             var favoritePlots = await _unitOfWork.PlotAppUserRepository
                 .GetAll(p => p.AppUserId == userId && p.IsFavorite, "Plot", "AppUser");
             var favoritePlotDtos = _mapper.Map<List<PlotDto>>(favoritePlots.Select(p => p.Plot));
 
-            // Fetch User Comments
             var userComments = await _unitOfWork.CommentRepository
                 .GetAll(c => c.AppUserId == userId);
             var userCommentDtos = _mapper.Map<List<CommentDto>>(userComments);
@@ -206,14 +204,23 @@ namespace Scenario.Application.Service.Implementations
         }
         public async Task<bool> Update(string userId, UpdateUserDto updateUserDto)
         {
+            if (updateUserDto == null) throw new CustomException(400, "Cannot be empty");
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null) throw new CustomException(404, "User not found");
-
-            // Update user properties
             user.UserName = updateUserDto.UserName ?? user.UserName;
             user.Email = updateUserDto.Email ?? user.Email;
-            user.UserImg = updateUserDto.UserImg ?? user.UserImg;
+            string userImage = null;
+            if (!string.IsNullOrEmpty(updateUserDto.UserImg))
+            {
+                if (!updateUserDto.UserImg.CheckContentType("image"))
+                    throw new CustomException(400, "The file has to be img");
 
+                if (updateUserDto.UserImg.CheckSize(1024))
+                    throw new CustomException(400, "The file is too large");
+
+                userImage = await updateUserDto.UserImg.SaveFile("userImages", _httpContextAccessor);
+            }
+            user.UserImg = userImage;
             var result = await _userManager.UpdateAsync(user);
             if (!result.Succeeded)
                 throw new CustomException(500, "Failed to update user");
@@ -331,9 +338,12 @@ namespace Scenario.Application.Service.Implementations
 
         public async Task<bool> ToggleFavoritePlot(PlotAppUserDto plotAppUserDto)
         {
-            if (plotAppUserDto.UserId == null || plotAppUserDto.PlotId <= 0) throw new CustomException(400, "user id or plot id is not right");
+            if (plotAppUserDto.AppUserId == null || plotAppUserDto.PlotId <= 0) throw new CustomException(400, "user id or plot id is not right");
             //var existingFavorite = await _unitOfWork.PlotAppUserRepository.GetEntity(f => f.AppUser.Id == plotAppUserDto.UserId && f.Plot.Id == plotAppUserDto.PlotId, "Plot", "AppUser", "PlotAppUser");
-            var existingFavorite = await _unitOfWork.PlotAppUserRepository.GetEntity(f => f.AppUser.Id == plotAppUserDto.UserId && f.Plot.Id == plotAppUserDto.PlotId, "PlotAppUser", "PlotAppUser.Plot", "PlotAppUser.AppUser");
+            var existingFavorite = await _unitOfWork.PlotAppUserRepository.GetEntity(
+                f => f.AppUser.Id == plotAppUserDto.AppUserId && f.Plot.Id == plotAppUserDto.PlotId,
+                "Plot", "AppUser"
+            );
 
             if (existingFavorite != null)
             {
@@ -360,11 +370,10 @@ namespace Scenario.Application.Service.Implementations
             var favoriteRepo = _unitOfWork.PlotAppUserRepository;
             var plotRepo = _unitOfWork.PlotRepository;
 
-            // Get all plots that the user has favorited
             var favoritePlots = await favoriteRepo.GetAll(f => f.AppUserId == userId && f.IsFavorite);
             var plotIds = favoritePlots.Select(f => f.PlotId).ToList();
 
-            if (!plotIds.Any()) return new List<PlotDto>(); // If no favorites, return empty list
+            if (!plotIds.Any()) return new List<PlotDto>();
 
             var plots = await plotRepo.GetAll(p => plotIds.Contains(p.Id));
             return _mapper.Map<List<PlotDto>>(plots);

@@ -16,8 +16,8 @@ namespace MovieApp.API.Controllers
             _commentService = commentService;
         }
 
-        [Authorize]
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(CommentCreateDto commentCreateDto)
         {
             return Ok(await _commentService.Create(commentCreateDto));
