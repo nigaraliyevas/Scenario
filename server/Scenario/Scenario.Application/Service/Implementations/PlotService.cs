@@ -6,6 +6,8 @@ using Scenario.Application.Exceptions;
 using Scenario.Application.Extensions.Extension;
 using Scenario.Application.Service.Interfaces;
 using Scenario.Core.Entities;
+using Scenario.Core.Entities.Common;
+using Scenario.Core.Repositories;
 using Scenario.DataAccess.Implementations.UnitOfWork;
 
 namespace Scenario.Application.Service.Implementations
@@ -25,14 +27,6 @@ namespace Scenario.Application.Service.Implementations
         public async Task<int> Create(PlotCreateDto createPlotDto)
         {
             if (createPlotDto == null) throw new CustomException(400, "Invalid plot data");
-
-            var newPlot = _mapper.Map<Plot>(createPlotDto);
-
-            newPlot.PlotCategories = createPlotDto.CategoryIds.Select(categoryId => new PlotCategory
-            {
-                CategoryId = categoryId
-            }).ToList();
-
             string userImage = null;
             if (!string.IsNullOrEmpty(createPlotDto.Image))
             {
@@ -44,10 +38,18 @@ namespace Scenario.Application.Service.Implementations
 
                 userImage = await createPlotDto.Image.SaveFile("userImages", _httpContextAccessor);
             }
+            var newPlot = _mapper.Map<Plot>(createPlotDto);
+
             createPlotDto.Image = userImage;
 
+
             await _unitOfWork.PlotRepository.Create(newPlot);
+
+            await SavePivotTables(newPlot.PlotCategories, _unitOfWork.PlotCategoryRepository);
+
+
             _unitOfWork.Commit();
+
             return newPlot.Id;
         }
 
@@ -126,7 +128,7 @@ namespace Scenario.Application.Service.Implementations
         {
             if (string.IsNullOrEmpty(categoryName)) throw new CustomException(400, "Category name cannot be null or empty");
 
-            IQueryable<Plot> query = _unitOfWork.PlotRepository.GetAllAsQeuryable(null, "Scriptwriter,Chapters,PlotRatings");
+            IQueryable<Plot> query = _unitOfWork.PlotRepository.GetAllAsQeuryable(null, "Scriptwriter", "Chapters", "PlotRatings");
 
             query = query.Where(x => x.PlotCategories.Any(pc => pc.Category.CategoryName.ToLower() == categoryName.ToLower()));
 
@@ -274,5 +276,15 @@ namespace Scenario.Application.Service.Implementations
             };
         }
 
+        private async Task SavePivotTables<T>(List<T> entities, IRepository<T> repository) where T : BaseEntity
+        {
+            if (entities != null)
+            {
+                foreach (var entity in entities)
+                {
+                    await repository.Create(entity);
+                }
+            }
+        }
     }
 }

@@ -145,7 +145,6 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpGet("profile")]
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUserProfile()
         {
             var userId = User.FindFirstValue("id");

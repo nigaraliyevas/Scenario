@@ -69,15 +69,20 @@ namespace Scenario.API
             services.AddScoped<IPlotRatingService, PlotRatingService>();
 
             services.AddScoped<IChapterRepository, ChapterRepository>();
+            services.AddScoped<IChapterService, ChapterService>();
 
             services.AddScoped<IAuthenticationService, AuthenticationService>();
-            services.AddScoped<IChapterService, ChapterService>();
 
             services.AddScoped<IContactUsRepository, ContactUsRepository>();
             services.AddScoped<IContactUsService, ContactUsService>();
 
+            services.AddScoped<IAdRepository, AdRepository>();
+            services.AddScoped<IAdService, AdService>();
+
 
             services.AddScoped<IPlotAppUserRepository, PlotAppUserRepository>();
+
+            services.AddScoped<IPlotCategoryRepository, PlotCategoryRepository>();
 
 
 

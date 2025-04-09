@@ -20,6 +20,7 @@ namespace Scenario.DataAccess.Data
         public DbSet<PlotRating> PlotRatings { get; set; }
         public DbSet<PlotAppUser> PlotAppUsers { get; set; }
         public DbSet<ContactUs> Contacts { get; set; }
+        public DbSet<Ad> Ads { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

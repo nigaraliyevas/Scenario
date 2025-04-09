@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Scenario.Application.Dtos.AdDtos;
 using Scenario.Application.Dtos.CategoryDtos;
 using Scenario.Application.Dtos.ChapterDtos;
 using Scenario.Application.Dtos.CommentDtos;
@@ -200,8 +201,12 @@ namespace Scenario.Application.Profiles
             CreateMap<ChapterUpdateDto, Chapter>();
 
             CreateMap<ScriptwriterCreateDto, Scriptwriter>();
+            CreateMap<Scriptwriter, ScriptwriterDto>();
 
-            CreateMap<PlotCreateDto, Plot>();
+
+            CreateMap<PlotCreateDto, Plot>()
+            .ForMember(dest => dest.PlotCategories, opt => opt.MapFrom(src => src.CategoryIds.Select(id => new PlotCategory { CategoryId = id }).ToList()))
+;
             CreateMap<Plot, PlotDto>();
             CreateMap<PlotAppUser, PlotAppUserDto>().ReverseMap();
             CreateMap<AppUser, UserGetDto>();
@@ -221,6 +226,11 @@ namespace Scenario.Application.Profiles
             .ForMember(dest => dest.CategoryIds, opt => opt.MapFrom(src => src.PlotCategories.Select(pc => pc.CategoryId)))
             .ForMember(dest => dest.Ratings, opt => opt.MapFrom(src => src.PlotRatings))
             .ReverseMap();
+
+
+            CreateMap<AdCreateDto, Ad>();
+            CreateMap<AdUpdateDto, Ad>();
+            CreateMap<Ad, AdDto>();
         }
     }
 
