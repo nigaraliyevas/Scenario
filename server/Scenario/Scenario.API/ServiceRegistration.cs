@@ -77,8 +77,13 @@ namespace Scenario.API
             services.AddScoped<IContactUsService, ContactUsService>();
 
 
+            services.AddScoped<IAdRepository, AdRepository>();
+            services.AddScoped<IAdService, AdService>();
+
+
             services.AddScoped<IPlotAppUserRepository, PlotAppUserRepository>();
 
+            services.AddScoped<IPlotCategoryRepository, PlotCategoryRepository>();
 
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -197,10 +202,11 @@ namespace Scenario.API
             //CORS Policy
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigin",
-                    builder => builder.WithOrigins("http://localhost:5173", "http://localhost:5174", "http://localhost:5175")
-                                      .AllowAnyHeader()
-                                      .AllowAnyMethod());
+                options.AddPolicy("AllowAll",
+                builder => builder
+                    .AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod());
             });
         }
     }

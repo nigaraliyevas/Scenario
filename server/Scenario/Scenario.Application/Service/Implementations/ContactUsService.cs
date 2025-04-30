@@ -58,7 +58,7 @@ namespace Scenario.Application.Service.Implementations
 
             try
             {
-                await _emailService.SendEmailAsync("nvailesi@gmail.com", "Yeni Əlaqə", emailBody);
+                await _emailService.SendEmailAsync("nvailesi.az@gmail.com", "Yeni Əlaqə", emailBody);
                 return true;
 
             }

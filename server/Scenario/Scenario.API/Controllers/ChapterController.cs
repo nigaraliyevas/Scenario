@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.ChapterDtos;
 using Scenario.Application.Service.Interfaces;
 
@@ -27,21 +28,21 @@ namespace Scenario.API.Controllers
             return Ok(await _chapterService.GetAll());
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> Create(ChapterCreateDto chapterCreateDto)
+        public async Task<IActionResult> Create([FromBody] ChapterCreateDto chapterCreateDto)
         {
             return Ok(await _chapterService.Create(chapterCreateDto));
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> Update(ChapterUpdateDto chapterUpdateDto)
+        public async Task<IActionResult> Update([FromBody] ChapterUpdateDto chapterUpdateDto)
         {
             return Ok(await _chapterService.Update(chapterUpdateDto));
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

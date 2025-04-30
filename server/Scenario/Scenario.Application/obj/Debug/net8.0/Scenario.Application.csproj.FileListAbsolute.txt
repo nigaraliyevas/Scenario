@@ -25,3 +25,12 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\refint\Scenario.Application.dll
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.Application.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\ref\Scenario.Application.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.Application.deps.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.Application.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.Application.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.Core.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.DataAccess.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.DataAccess.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\bin\Debug\net8.0\Scenario.Core.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\Scenario.C5835944.Up2Date
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Application\obj\Debug\net8.0\ref\Scenario.Application.dll

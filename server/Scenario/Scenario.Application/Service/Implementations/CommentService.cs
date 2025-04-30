@@ -4,6 +4,7 @@ using Scenario.Application.Dtos.CommentDtos;
 using Scenario.Application.Exceptions;
 using Scenario.Application.Service.Interfaces;
 using Scenario.Core.Entities;
+using Scenario.DataAccess.Implementations;
 using Scenario.DataAccess.Implementations.UnitOfWork;
 
 namespace Scenario.Application.Service.Implementations
@@ -57,13 +58,21 @@ namespace Scenario.Application.Service.Implementations
             return _mapper.Map<List<CommentDto>>(comments);
         }
 
+        public async Task<List<Comment>> GetAllByChapterId(int id)
+        {
+            if (id == null || id <= 0) throw new CustomException(404, "Null Exception");
+            var chapter = await _unitOfWork.ChapterRepository.GetEntity(x => x.Id == id, "Comments");
+            if (chapter == null) throw new CustomException(404, "Not Found");
+            return chapter.Comments;
+        }
+
         public async Task<Comment> GetById(int id)
         {
             if (id == null || id <= 0) throw new CustomException(404, "Null Exception");
             var existComment = await _unitOfWork.CommentRepository.GetEntity(x => x.Id == id, "AppUser");
             if (existComment == null) throw new CustomException(404, "Not Found");
             return existComment;
-        }
+        }             
 
         public async Task<int> Update(CommentUpdateDto commentUpdateDto, int id)
         {

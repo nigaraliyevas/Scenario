@@ -11,5 +11,7 @@ namespace Scenario.Application.Service.Interfaces
         Task<int> Delete(int id);
         Task<List<CommentDto>> GetAll();
         Task<Comment> GetById(int id);
+        Task<List<Comment>> GetAllByChapterId(int id);
+
     }
 }

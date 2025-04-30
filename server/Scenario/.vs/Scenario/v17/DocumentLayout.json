@@ -1,49 +1,208 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406193615_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scenario.DataAccess\\Migrations\\20250406193615_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\plotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\contactusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\contactusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.dataaccess\\data\\scenarioappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\data\\scenarioappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.dataaccess\\migrations\\20250406193615_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\migrations\\20250406193615_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\adservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\adservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\plotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\plotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\entities\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406191148_salma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scenario.DataAccess\\Migrations\\20250406191148_salma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\plotdtos\\plotcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\plotdtos\\plotcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\plotdtos\\plotcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\plotdtos\\plotupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\commentdtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\commentdtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\chapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\chapterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\chapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\commentdtos\\commentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\commentdtos\\commentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\scriptwriterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\scriptwriterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\scriptwritercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\scriptwritercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\scriptwriterdtos\\scriptwriterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\scriptwriterdtos\\scriptwriterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\scriptwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\scriptwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\plotratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\plotratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\plotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\plotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\adrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\adrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.dataaccess\\implementations\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E733A9A-2E77-4610-958B-10606954F99D}|Scenario.DataAccess\\Scenario.DataAccess.csproj|solutionrelative:scenario.dataaccess\\implementations\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\adcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\adcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\addtos\\addto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\addtos\\addto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\addtos\\adupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\addtos\\adupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\addtos\\adcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\addtos\\adcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\repositories\\iadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\repositories\\iadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\likedislikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\likedislikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\abouttestimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\abouttestimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09752A87-C589-45C4-94B4-92F7C27FAE3F}|Scenario.API\\Scenario.API.csproj|solutionrelative:scenario.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5133E49B-0A44-4B67-926C-D041EBFAD14F}|Scenario.Core\\Scenario.Core.csproj|solutionrelative:scenario.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406191148_salma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\plotdtos\\plotupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\plotdtos\\plotupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\dtos\\plotdtos\\plotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\dtos\\plotdtos\\plotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\dtos\\plotdtos\\plotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\user\\desktop\\nv\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iplotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|c:\\users\\asus\\scenario\\server\\scenario\\scenario.application\\service\\interfaces\\iplotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{358AD7C0-5193-4F93-8F48-DC4D2C3AFC43}|Scenario.Application\\Scenario.Application.csproj|solutionrelative:scenario.application\\service\\interfaces\\iplotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,57 +213,578 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250406193615_init.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
-              "RelativeDocumentMoniker": "Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
-              "RelativeToolTip": "Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
-              "ViewState": "AgIAAD8CAAAAAAAAAAAAAD8CAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:36:15.421Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlotService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\PlotService.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\PlotService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\PlotService.cs",
-              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\PlotService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvycAAAAUAAAAAAAAAA==",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Scenario.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.Development.json",
+              "RelativeToolTip": "Scenario.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T07:16:28.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUsService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ContactUsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:10:42.476Z",
+              "WhenOpened": "2025-04-16T06:46:27.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AdService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\AdService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AdService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AdService.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAkwGkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:30:01.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ad.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Ad.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Ad.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Ad.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Ad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:26:32.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScenarioAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Data\\ScenarioAppDbContext.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Data\\ScenarioAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Data\\ScenarioAppDbContext.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Data\\ScenarioAppDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:23:14.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Scenario.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\appsettings.json",
+              "RelativeToolTip": "Scenario.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T20:21:47.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "20250406193615_init.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Migrations\\20250406193615_init.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAgwAABAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:36:15.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlotService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\PlotService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\PlotService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\PlotService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\PlotService.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAwFoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:10:42.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Plot.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Plot.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Plot.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Plot.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Plot.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:27:14.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlotCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:07:16.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:15:13.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CommentService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\CommentService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CommentService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\CommentService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:20:29.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\ICommentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:45:26.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\CommentDtos\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\CommentDtos\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\CommentDtos\\CommentDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\CommentDtos\\CommentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:34:42.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\Repository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAxwKQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:18:09.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChapterController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ChapterController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\ChapterController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ChapterController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\ChapterController.cs",
+              "ViewState": "AQIAAAYAAAAABQAAAEAlwBgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:12:56.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChapterService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ChapterService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:56:41.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Chapter.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Chapter.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Chapter.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Chapter.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Chapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:41:52.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Comment.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:38:18.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "Scenario.Application\\Profiles\\MapperProfile.cs",
+              "ViewState": "AQIAANAAAAAA0MzMzMwQwJ8AAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:16:44.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommentCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\CommentDtos\\CommentCreateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\CommentDtos\\CommentCreateDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\CommentDtos\\CommentCreateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\CommentDtos\\CommentCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T18:34:42.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\ServiceRegistration.cs",
+              "RelativeToolTip": "Scenario.API\\ServiceRegistration.cs",
+              "ViewState": "AQIAALoAAABA0czMzEwewL8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:54:01.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Program.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Program.cs",
+              "RelativeToolTip": "Scenario.API\\Program.cs",
+              "ViewState": "AQIAAAkAAACAMzMzM5MwwA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:51:16.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\AuthenticationService.cs",
+              "ViewState": "AQIAAGcBAAAAAAAAAAAmwIUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:55:48.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ScriptwriterService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\ScriptwriterService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAcwFAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:56:25.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ScriptwriterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ScriptwriterDtos\\ScriptwriterDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\ScriptwriterDtos\\ScriptwriterDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\ScriptwriterDtos\\ScriptwriterDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\ScriptwriterDtos\\ScriptwriterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:14:32.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Scriptwriter.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Scriptwriter.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Scriptwriter.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Scriptwriter.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Scriptwriter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:16:13.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Scenario.Core\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:16:27.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ScriptwriterController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ScriptwriterController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\ScriptwriterController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ScriptwriterController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\ScriptwriterController.cs",
+              "ViewState": "AQIAABAAAAAA08zMzMwDwBgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:50:50.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAwJYAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:06:43.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\SettingsController.cs",
+              "ViewState": "AQIAABUAAACADwAAAAAMwCAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:51:49.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlotRatingController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\PlotRatingController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\PlotRatingController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\PlotRatingController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\PlotRatingController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA1wCgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:49:48.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PlotController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\PlotController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\PlotController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\PlotController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\PlotController.cs",
+              "ViewState": "AQIAACIAAAAAzszMzEwlwDIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:47:58.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\AdRepository.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\AdRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\AdRepository.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\AdRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:44:22.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAB0AAACAmpmZmRkvwCQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:43:10.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Scenario.DataAccess\\Implementations\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Implementations\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "Scenario.DataAccess\\Implementations\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:42:32.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AdController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\AdController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AdController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\AdController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA4wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:41:32.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\AdDtos\\AdUpdateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\AdDtos\\AdUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\AdDtos\\AdUpdateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\AdDtos\\AdUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:29:23.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\AdDtos\\AdCreateDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\AdDtos\\AdCreateDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\AdDtos\\AdCreateDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\AdDtos\\AdCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:28:57.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\AdDtos\\AdDto.cs",
+              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\AdDtos\\AdDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\AdDtos\\AdDto.cs",
+              "RelativeToolTip": "Scenario.Application\\Dtos\\AdDtos\\AdDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:28:32.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAdRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Repositories\\IAdRepository.cs",
+              "RelativeDocumentMoniker": "Scenario.Core\\Repositories\\IAdRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Repositories\\IAdRepository.cs",
+              "RelativeToolTip": "Scenario.Core\\Repositories\\IAdRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:27:52.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LikeDislikeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\LikeDislikeController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\LikeDislikeController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\LikeDislikeController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\LikeDislikeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:19:49.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ContactUsController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ContactUsController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\ContactUsController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\ContactUsController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\ContactUsController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCIAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:18:56.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AboutTestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AboutTestimonialController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\AboutTestimonialController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\AboutTestimonialController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\AboutTestimonialController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:15:17.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Scenario.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Scenario.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:09:37.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "20250406191148_salma.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406191148_salma.cs",
-              "RelativeDocumentMoniker": "Scenario.DataAccess\\Migrations\\20250406191148_salma.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406191148_salma.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406191148_salma.cs",
-              "RelativeToolTip": "Scenario.DataAccess\\Migrations\\20250406191148_salma.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Migrations\\20250406191148_salma.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T19:11:48.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 48,
               "Title": "PlotUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotUpdateDto.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\PlotDtos\\PlotUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotUpdateDto.cs",
               "RelativeToolTip": "Scenario.Application\\Dtos\\PlotDtos\\PlotUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,23 +792,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlotCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
-              "RelativeToolTip": "Scenario.Application\\Dtos\\PlotDtos\\PlotCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:07:16.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 47,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CategoryService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Implementations\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Implementations\\CategoryService.cs",
               "RelativeToolTip": "Scenario.Application\\Service\\Implementations\\CategoryService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,11 +804,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 45,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Category.cs",
               "RelativeToolTip": "Scenario.Core\\Entities\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -148,36 +816,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Plot.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Plot.cs",
-              "RelativeDocumentMoniker": "Scenario.Core\\Entities\\Plot.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Core\\Entities\\Plot.cs",
-              "RelativeToolTip": "Scenario.Core\\Entities\\Plot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:27:14.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
-              "RelativeDocumentMoniker": "Scenario.Application\\Profiles\\MapperProfile.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Profiles\\MapperProfile.cs",
-              "RelativeToolTip": "Scenario.Application\\Profiles\\MapperProfile.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAqwMsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:16:44.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 50,
               "Title": "IPlotService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IPlotService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IPlotService.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Service\\Interfaces\\IPlotService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IPlotService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Service\\Interfaces\\IPlotService.cs",
               "RelativeToolTip": "Scenario.Application\\Service\\Interfaces\\IPlotService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,11 +828,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 49,
               "Title": "PlotDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotDto.cs",
               "RelativeDocumentMoniker": "Scenario.Application\\Dtos\\PlotDtos\\PlotDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotDto.cs",
+              "ToolTip": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Dtos\\PlotDtos\\PlotDto.cs",
               "RelativeToolTip": "Scenario.Application\\Dtos\\PlotDtos\\PlotDto.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwBgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

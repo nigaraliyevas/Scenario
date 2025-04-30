@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.SettingsDtos;
 using Scenario.Application.Service.Interfaces;
@@ -29,6 +30,7 @@ namespace Scenario.API.Controllers
         }
 
         [HttpPut]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateSettings([FromBody] Dictionary<string, string> settings)
         {
             await _settingsService.UpdateSettingsAsync(settings);
@@ -36,6 +38,7 @@ namespace Scenario.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateSetting([FromBody] SettingsCreateDto settingsCreateDto)
         {
             await _settingsService.CreateSettingAsync(settingsCreateDto);

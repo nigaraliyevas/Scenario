@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.AboutTestimonialDtos;
 using Scenario.Application.Service.Interfaces;
 
@@ -14,9 +15,9 @@ namespace Scenario.API.Controllers
         {
             _aboutTestimonialService = aboutTestimonialService;
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromForm] AboutTestimonialCreateDto aboutTestimonialCreateDto)
+        public async Task<IActionResult> Create([FromBody] AboutTestimonialCreateDto aboutTestimonialCreateDto)
         {
             return Ok(await _aboutTestimonialService.Create(aboutTestimonialCreateDto));
         }
@@ -27,12 +28,11 @@ namespace Scenario.API.Controllers
             return Ok(await _aboutTestimonialService.GetById(id));
         }
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update([FromForm] AboutTestimonialUpdateDto aboutTestimonialUpdateDto, int id)
+        public async Task<IActionResult> Update([FromBody] AboutTestimonialUpdateDto aboutTestimonialUpdateDto, int id)
         {
-            //return Ok(await _aboutTestimonialService.Update(aboutTestimonialUpdateDto, id));
-            return Ok();
+            return Ok(await _aboutTestimonialService.Update(aboutTestimonialUpdateDto, id));           
         }
     }
 }

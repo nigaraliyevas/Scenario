@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.CategoryDtos;
 using Scenario.Application.Service.Interfaces;
 
@@ -26,21 +27,20 @@ namespace Scenario.API.Controllers
             return Ok(await _categoryService.GetAll());
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> Create(CategoryCreateDto categoryCreateDto)
+        public async Task<IActionResult> Create([FromBody] CategoryCreateDto categoryCreateDto)
         {
             return Ok(await _categoryService.Create(categoryCreateDto));
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> Update(CategoryUpdateDto categoryUpdateDto)
+        public async Task<IActionResult> Update([FromBody] CategoryUpdateDto categoryUpdateDto)
         {
             return Ok(await _categoryService.Update(categoryUpdateDto));
         }
-
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

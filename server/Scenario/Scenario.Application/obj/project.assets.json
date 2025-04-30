@@ -2768,19 +2768,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
       "projectName": "Scenario.Application",
-      "projectPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.Application\\obj\\",
+      "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\Scenario.Application.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2795,8 +2795,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\NV\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj"
+            "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Scenario\\server\\Scenario\\Scenario.DataAccess\\Scenario.DataAccess.csproj"
             }
           }
         }
@@ -2853,7 +2853,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

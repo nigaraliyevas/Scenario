@@ -15,13 +15,14 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
         public IPlotAppUserRepository PlotAppUserRepository { get; private set; }
         public IPlotCategoryRepository PlotCategoryRepository { get; private set; }
         public IContactUsRepository ContactUsRepository { get; private set; }
+        public IAdRepository AdRepository { get; private set; }
 
         public IAboutTestimonialRepository AboutTestimonialRepository { get; private set; }
         public ISettingsRepository SettingsRepository { get; private set; }
         public IUserScenarioFavoriteRepository UserScenarioFavoriteRepository { get; private set; }
         public ILikeDislikeRepository LikeDislikeRepository { get; private set; }
 
-        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository, IChapterRepository chapterRepository, IPlotAppUserRepository plotAppUserRepository = null, IPlotCategoryRepository plotCategoryRepository = null, IContactUsRepository contactUsRepository = null, IAboutTestimonialRepository aboutTestimonialRepository = null, ISettingsRepository settingsRepository = null, IUserScenarioFavoriteRepository userScenarioFavoriteRepository = null, ILikeDislikeRepository likeDislikeRepository = null)
+        public UnitOfWork(ScenarioAppDbContext context, IPlotRepository plotRepository, ICommentRepository commentRepository, ICategoryRepository categoryRepository, IScriptwriterRepository scriptwriterRepository, IPlotRatingRepository plotRatingRepository, IChapterRepository chapterRepository, IPlotAppUserRepository plotAppUserRepository = null, IPlotCategoryRepository plotCategoryRepository = null, IContactUsRepository contactUsRepository = null, IAboutTestimonialRepository aboutTestimonialRepository = null, ISettingsRepository settingsRepository = null, IUserScenarioFavoriteRepository userScenarioFavoriteRepository = null, ILikeDislikeRepository likeDislikeRepository = null, IAdRepository adRepository = null)
         {
             _context = context;
             PlotRepository = plotRepository;
@@ -33,6 +34,7 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
             PlotAppUserRepository = plotAppUserRepository;
             PlotCategoryRepository = plotCategoryRepository;
             ContactUsRepository = contactUsRepository;
+            AdRepository = adRepository;
 
             AboutTestimonialRepository = aboutTestimonialRepository;
             SettingsRepository = settingsRepository;

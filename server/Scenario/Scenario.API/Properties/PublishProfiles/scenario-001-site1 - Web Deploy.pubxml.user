@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2025-04-16T06:49:59.5817424Z||;True|2025-04-14T11:45:43.0680512+04:00||;True|2025-04-14T11:43:32.4721365+04:00||;True|2025-04-14T11:35:34.8533308+04:00||;True|2025-04-14T10:26:08.5913800+04:00||;True|2025-04-13T22:22:22.1457967+04:00||;True|2025-04-12T18:11:17.7742671+04:00||;True|2025-04-11T09:23:12.3150580+04:00||;True|2025-04-09T22:02:56.3446811+04:00||;True|2025-04-07T00:46:55.2958378+04:00||;True|2025-04-07T00:36:22.2027679+04:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL1003.site4now.net%3bInitial Catalog=db_ab7541_scenario%3bUser Id=db_ab7541_scenario_admin%3bPassword=nv123456</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

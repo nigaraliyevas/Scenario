@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.ScriptwriterDtos;
 using Scenario.Application.Service.Interfaces;
 
@@ -27,21 +28,21 @@ namespace Scenario.API.Controllers
             return Ok(await _scriptwriterService.GetAll());
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> Create(ScriptwriterCreateDto scriptwriterCreateDto)
+        public async Task<IActionResult> Create([FromBody] ScriptwriterCreateDto scriptwriterCreateDto)
         {
             return Ok(await _scriptwriterService.Create(scriptwriterCreateDto));
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> Update(ScriptwriterUpdateDto scriptwriterUpdateDto)
+        public async Task<IActionResult> Update([FromBody] ScriptwriterUpdateDto scriptwriterUpdateDto)
         {
             return Ok(await _scriptwriterService.Update(scriptwriterUpdateDto));
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

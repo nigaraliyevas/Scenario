@@ -17,12 +17,6 @@ namespace MovieApp.API.Controllers
             _authService = authService;
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Register([FromBody] UserRegisterDto userRegisterDto)
-        //{
-        //    await _authService.Register(userRegisterDto);
-        //    return StatusCode(201);
-        //}
 
         [HttpPost("Role")]
         public async Task<IActionResult> CreateRole()
@@ -145,7 +139,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpGet("profile")]
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         public async Task<IActionResult> GetUserProfile()
         {
             var userId = User.FindFirstValue("id");
@@ -153,7 +147,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpPut("{userId}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         public async Task<IActionResult> UpdateUser(string userId, [FromBody] UpdateUserDto updateUserDto)
         {
 
@@ -162,7 +156,7 @@ namespace MovieApp.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize]
         public async Task<IActionResult> Delete(string id)
         {
             return Ok(await _authService.Delete(id));

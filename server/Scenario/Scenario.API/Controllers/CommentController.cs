@@ -18,7 +18,7 @@ namespace MovieApp.API.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> Create(CommentCreateDto commentCreateDto)
+        public async Task<IActionResult> Create([FromBody] CommentCreateDto commentCreateDto)
         {
             return Ok(await _commentService.Create(commentCreateDto));
         }
@@ -34,8 +34,14 @@ namespace MovieApp.API.Controllers
             return Ok(await _commentService.GetById(id));
         }
 
+        [HttpGet("Chapter/{chapterId}")]
+        public async Task<IActionResult> GetAllByChapterId(int chapterId)
+        {
+            return Ok(await _commentService.GetAllByChapterId(chapterId));
+        }
+        [Authorize]
         [HttpPut]
-        public async Task<IActionResult> Update(CommentUpdateDto commentUpdateDto, int id)
+        public async Task<IActionResult> Update([FromBody] CommentUpdateDto commentUpdateDto, int id)
         {
             return Ok(await _commentService.Update(commentUpdateDto, id));
         }

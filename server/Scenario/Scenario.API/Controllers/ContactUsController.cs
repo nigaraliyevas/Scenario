@@ -14,6 +14,7 @@ namespace Scenario.API.Controllers
         {
             _contactService = contactService;
         }
+
         [HttpPost("submit")]
         public async Task<IActionResult> SubmitContact([FromBody] ContactUsCreateDto contactUsCreateDto)
         {

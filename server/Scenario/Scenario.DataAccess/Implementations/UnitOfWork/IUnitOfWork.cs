@@ -12,6 +12,7 @@ namespace Scenario.DataAccess.Implementations.UnitOfWork
         public IPlotAppUserRepository PlotAppUserRepository { get; }
         public IPlotCategoryRepository PlotCategoryRepository { get; }
         public IContactUsRepository ContactUsRepository { get; }
+        public IAdRepository AdRepository { get; }
 
         public IAboutTestimonialRepository AboutTestimonialRepository { get; }
         public ISettingsRepository SettingsRepository { get; }

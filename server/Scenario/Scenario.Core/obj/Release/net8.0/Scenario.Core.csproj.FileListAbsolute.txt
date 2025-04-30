@@ -1,0 +1,13 @@
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\bin\Release\net8.0\Scenario.Core.deps.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\bin\Release\net8.0\Scenario.Core.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\bin\Release\net8.0\Scenario.Core.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.csproj.AssemblyReference.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.AssemblyInfoInputs.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.AssemblyInfo.cs
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.sourcelink.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\refint\Scenario.Core.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\Scenario.Core.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.Core\obj\Release\net8.0\ref\Scenario.Core.dll

@@ -34,3 +34,12 @@ C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.DataAccess.pdb
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.DataAccess.genruntimeconfig.cache
 C:\Users\User\Desktop\NV\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\ref\Scenario.DataAccess.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\bin\Debug\net8.0\Scenario.DataAccess.deps.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\bin\Debug\net8.0\Scenario.DataAccess.runtimeconfig.json
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\bin\Debug\net8.0\Scenario.DataAccess.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\bin\Debug\net8.0\Scenario.DataAccess.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\bin\Debug\net8.0\Scenario.Core.dll
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\bin\Debug\net8.0\Scenario.Core.pdb
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.0AD2D3A8.Up2Date
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\Scenario.DataAccess.genruntimeconfig.cache
+C:\Users\Asus\Scenario\server\Scenario\Scenario.DataAccess\obj\Debug\net8.0\ref\Scenario.DataAccess.dll

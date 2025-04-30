@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.PlotRatingDtos;
 using Scenario.Application.Service.Interfaces;
 using System.Security.Claims;
@@ -27,10 +28,9 @@ namespace Scenario.API.Controllers
         {
             return Ok(await _plotRatingService.GetAll());
         }
-
+        [Authorize]
         [HttpPost("rate")]
-
-        public async Task<IActionResult> RatePlot(PlotRatingCreateDto ratingDto)
+        public async Task<IActionResult> RatePlot([FromBody] PlotRatingCreateDto ratingDto)
         {
             var userId = User.FindFirstValue("id");
             if (string.IsNullOrEmpty(userId)) return Unauthorized();
@@ -38,7 +38,7 @@ namespace Scenario.API.Controllers
         }
 
 
-        //[Authorize] 
+        [Authorize] 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

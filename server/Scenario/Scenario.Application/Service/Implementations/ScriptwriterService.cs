@@ -45,7 +45,7 @@ namespace Scenario.Application.Service.Implementations
 
         public async Task<List<ScriptwriterDto>> GetAll()
         {
-            var scriptwriters = await _unitOfWork.ScriptwriterRepository.GetAll(null, "");
+            var scriptwriters = await _unitOfWork.ScriptwriterRepository.GetAll();
             if (scriptwriters == null) throw new CustomException(404, "Not Found");
             var scriptwriterDto = _mapper.Map<List<ScriptwriterDto>>(scriptwriters);
             return scriptwriterDto;
@@ -54,7 +54,7 @@ namespace Scenario.Application.Service.Implementations
         public async Task<ScriptwriterDto> GetById(int id)
         {
             if (id <= 0 || id == null) throw new CustomException(404, "Null Exception");
-            var scriptwriter = await _unitOfWork.ScriptwriterRepository.GetEntity(x => x.Id == id, "PlotCategories");
+            var scriptwriter = await _unitOfWork.ScriptwriterRepository.GetEntity(x => x.Id == id);
 
             if (scriptwriter == null) throw new CustomException(404, "Not Found");
             var scriptwriterDto = _mapper.Map<ScriptwriterDto>(scriptwriter);
@@ -74,8 +74,9 @@ namespace Scenario.Application.Service.Implementations
                   x.Phone == existScriptwriter.Phone) &&
                     x.Id != existScriptwriter.Id);
             if (isExist) throw new CustomException(400, "Email or Phone number already belongs to another scriptwriter");
-            existScriptwriter.UpdatedDate = DateTime.Now;
-            await _unitOfWork.ScriptwriterRepository.Update(existScriptwriter);
+            var updated = _mapper.Map(scriptwriterUpdateDto, existScriptwriter);
+            updated.UpdatedDate = DateTime.Now;
+            await _unitOfWork.ScriptwriterRepository.Update(updated);
             _unitOfWork.Commit();
             return existScriptwriter.Id;
         }

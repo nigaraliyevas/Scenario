@@ -20,6 +20,13 @@ namespace Scenario.DataAccess.Data
         public DbSet<PlotRating> PlotRatings { get; set; }
         public DbSet<PlotAppUser> PlotAppUsers { get; set; }
         public DbSet<ContactUs> Contacts { get; set; }
+        public DbSet<Ad> Ads { get; set; }
+
+
+        public DbSet<AboutTestimonial> AboutTestimonials { get; set; }
+        public DbSet<Settings> Settings { get; set; }
+        public DbSet<LikeDislike> LikeDislikes { get; set; }
+        public DbSet<UserScenarioFavorite> UserScenarioFavorites { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

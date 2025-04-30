@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Scenario.Application.Dtos.PlotDtos;
 using Scenario.Application.Service.Interfaces;
 
@@ -46,18 +47,23 @@ namespace Scenario.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(PlotCreateDto plotCreateDto)
+        [Authorize(Roles="Admin")]
+        public async Task<IActionResult> Create([FromBody]PlotCreateDto plotCreateDto)
         {
             return Ok(await _plotService.Create(plotCreateDto));
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(PlotUpdateDto plotUpdateDto)
+        [Authorize(Roles = "Admin")]
+
+        public async Task<IActionResult> Update([FromBody]PlotUpdateDto plotUpdateDto)
         {
             return Ok(await _plotService.Update(plotUpdateDto));
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(int id)
         {
             return Ok(await _plotService.Delete(id));
